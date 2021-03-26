@@ -58,4 +58,5 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 
 ##### Referências
 
-Diagrama de classe: ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+Diagrama de classe: 
+![](https://github.com/educacao-gama/desafios-gama/blob/main/biblioteca/biblioteca-diagrama.jpg)
