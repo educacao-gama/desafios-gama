@@ -22,12 +22,37 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 1. Toda locação iniciará com Data Agendamento,  Status = RESERVADA e Valor Total = 0,0. Somente o campo Data Retirada aceitará nulo
 1. Na inclusão dos itens de livro na locação, deverá ser considerado se o campo número de exemplares do livro maior ou igual a 1
 1. A cada inclusão de livro na  locação deverá ser informada uma previsão de data de entrega e manipular os campos do livro da seguinte maneira.
-	1. Filho
-	1. Filho
-	1. Filho
-1.
-1.
-1.
-1.
-1.
+	1. Decrementar o campo exemplares em 1
+	1. Incrementar o campo reservados em 1
+1. Toda vez que for selecionada uma locação através da consulta de locações, deverá ser acionado a rotina que analisa todos os livros da locação atualizando os campos: número de diárias já realizadas, valor da locação de cada livro com as seguintes regras:
+	1. O cálculo só será executado em livros que ainda não entregues **(Data Entrega igual null)**
+	1. Cálculo de número de diárias : Data de Hoje - Data Retirada **(Locacao)**
+	1. Cálculo de valor de locação: **(Numero de Diárias x Valor Diária)** 
+	1. Valor Total da Locação é o resultante da soma do Valor Locação de todos os livros da locação.
+1. Quando o usuário vier retirar os livros atualizar o campo Data de Retirada e mudar o Status para **EFETIVADA**
+1. Quando o usuário entregar todos os livros da locação, atualizar o campo Data Finalização e Status para FINALIZADA e atualizar os campos do livro conforme abaixo:
+	1. Incrementar o campo exemplares em 1
+	1. Decrementar o campo reservados em 1
+1. Disponibilizar uma consulta de locações pelos parâmetros: Data Agendamento, Data Retirada, Cadastro (usuario), Status Locação. 
+
+#### Noções de Arquitetura - DevOps
+
+1. Disponibilizar uma API Rest que deverá disponibilizar o serviço de autenticação e autorização para usuários.
+1. Disponibilizar uma API Rest com todas as funcionalidades citadas acima.
+1. Disponibilizar a documentação dos recursos Web Services REST.
+
+
+#### Critérios de Aceite
+
+##### Backend
+
+- Apresentar a estrutura do projeto no github;
+- Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
+- Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
+
+- Realização do Cadastro com Endereço e Cadastro de Livros.
+- Realizar operações de locação de livros considerando as fases conforme requisitos.
+- Realizar a consulta das locações por data de agendamento, data retirada, cadastro e status.
+
+- **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
 
