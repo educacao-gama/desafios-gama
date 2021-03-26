@@ -23,6 +23,8 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 1. Na inclusão dos itens de livro na locação, deverá ser considerado se o campo número de exemplares do livro maior ou igual a 1
 1. A cada inclusão de livro na  locação deverá ser informada uma previsão de data de entrega e manipular os campos do livro da seguinte maneira.
 	1. Filho
+	1. Filho
+	1. Filho
 1.
 1.
 1.
