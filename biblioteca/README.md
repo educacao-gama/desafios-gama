@@ -56,3 +56,6 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 
 - **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
 
+##### Referências
+
+Diagrama de classe: ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
