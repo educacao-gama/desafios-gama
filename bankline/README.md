@@ -9,11 +9,13 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Para iniciar será necessário o Cadastro contendo os campos, Id, Nome, CPF, Email, Telefone, Login, Senha
+- [ ] Cadastro de Usuário terá os campos Login, Senha, Nome e Cpf.
 - [ ] O cadastro deverá ter o seu endereço através uma tabela de endereço com os campos: Id, Cep, Logradouro, Numero, Bairro, Localidade, Uf, IBGE.
 **NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
-- [ ] Será necessário também cadastrar os livros com os campos: Id, ISBN, Titulo, Valor da Diaria, Número de exemplares do livro e Número dos exemplares reservados.
-- [ ] Para realizar a locação deverá armazenar as informações abaixo: Id, Data Agendamento, Data Retirada, Data Finalizacao,  Valor Total e o Status Locação **(RESERVADA, EFETIVADA, FINALIZADA)**.
+- [ ] No processo de criação de Usuários serão criadas duas Contas com os campos Tipo da Conta {CB (Conta Banco), CC (Conta Credito)}, Numero, Saldo e Login do Usuario.
+	- O Número será do tipo Texto contendo a seguinte atribuição: Login + Sigla Tipo Conta, exemplo.: JOSECB e  JOSECC
+	- Conta Banco: Conta que representa tua conta corrente que pode realizar RECEITAS, DEPESAS e TRANSFERIR entre sua Conta Credito e ou Conta Banco de outros Usuários.
+- [ ] Plano de Contas é a finalidade das transações realizadas na conta dos Usuários, exemplo: SALARIO, AGUA, LUZ, TRANSFERENCIA.
 - [ ] Como será possivel retirar mais de um livro em cada Locação, deverá registrar estes livros selecionados incluindo os campos: Data Previsao Entrega, Data Entrega, Numero de diarias **(data entrega - data retirada)**, Valor Diaria, Valor Locação **(valor diaria * diarias)**;
 
 #### Regra de Negócio
