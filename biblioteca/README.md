@@ -56,11 +56,17 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 
 - Refatorar todo o sistema para a estrutura WEB com a finalidade de prover API Rest da aplicação
 - Implementar funcionalidades de segurança usando Basic Auth, OAuth ou JWT (Preferencialmente)
-- 
+- Criar uma camada de controller\resource para disponibilizar todos os serviços aplicando autenticação\autorização nos serviços para prover os recursos de forma segura. 
+- Disponibilizar uma API Rest que exige autenticação e devidamente documentada pelo Swagger em um ambiente Azure, Heroku ou OnPromisse.
 
+##### Projeto Final
+- Apresentar a API projeto  devidamente documentada para uma demonstração de uma jornada de consumo dos recursos com ênfase nas funcionalidades do sistema solicitado e critérios de aceite.
+- Detalhar no README do projeto modelo de consumo de endpoint para facilitar a utilização da API, exemplo:
 
 
 #### Critérios de Aceite
+Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe, READEME com a jornada do projeto final com API Rest documentada pelo Swagger e\ou Front Interativo disponível em um ambiente Azure, Heroku ou OnPromisse.
+
 
 ##### Backend
 
