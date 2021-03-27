@@ -15,8 +15,9 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 - [ ] No processo de criação de Usuários serão criadas duas Contas com os campos Tipo da Conta {CB (Conta Banco), CC (Conta Credito)}, Numero, Saldo e Login do Usuario.
 	- O Número será do tipo Texto contendo a seguinte atribuição: Login + Sigla Tipo Conta, exemplo.: JOSECB e  JOSECC
 	- Conta Banco: Conta que representa tua conta corrente que pode realizar RECEITAS, DEPESAS e TRANSFERIR entre sua Conta Credito e ou Conta Banco de outros Usuários.
-- [ ] Plano de Contas é a finalidade das transações realizadas na conta dos Usuários, exemplo: SALARIO, AGUA, LUZ, TRANSFERENCIA.
-- [ ] Como será possivel retirar mais de um livro em cada Locação, deverá registrar estes livros selecionados incluindo os campos: Data Previsao Entrega, Data Entrega, Numero de diarias **(data entrega - data retirada)**, Valor Diaria, Valor Locação **(valor diaria * diarias)**;
+- [ ] Plano de Contas é a finalidade das transações realizadas na conta dos Usuários, exemplo: SALARIO, AGUA, LUZ, TRANSFERENCIA que serão quatro Planos de Contas padrão por Usuário, são elas: {R (RECEITA), D (DESPESA) , TC (TRANSFERENCIA ENTRE CONTAS) e TU (TRANSFERENCIAS ENTRE USUARIOS).
+- [ ] Para o cadastro de Plano de Contas é necessário informar o Id, Descrição, Login, Tipo Movimento (R, D, TC, TU), Padrão (s/n)
+- [ ] Lançamentos: toda Transação deverá armazenas os campos Id, Conta, Data, Descrição, Login, Valor, Tipo Movimento e em casa do tranferência informar a Conta de Destino
 
 #### Regra de Negócio
 
