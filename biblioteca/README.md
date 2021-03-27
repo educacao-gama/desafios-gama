@@ -1,8 +1,14 @@
 # Gama Academy - Transformando Talentos para o Futuro
 
+GIT
+PAPO COM PROFESSORES
+CRM BANCO DE QUESTOES
+
 ## Desafio Biblioteca
 Criar um sistema para uma biblioteca gerenciar a locação de seus livros provendo um webservices com arquitetura REST para atender as demandas do projeto.
-
+#### Time Multiplayer
+- [Danilo Elias](https://github.com/danilose)
+Ajudou no desenvolvimento da modelagem e implementação dos Services, Models, Endpoints e configurações de segurança.
 ### Backend
 
 #### Domínio - Modelagem de Dados
