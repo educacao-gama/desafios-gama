@@ -31,7 +31,8 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 	1. O Usuário poderá transferir saldo da sua Conta Banco para a Conta Crédito mas não o contrário
 	1. O Usuário poderá transferir saldo da sua Conta Banco somemente para Conta Banco de outro usuário
 	1. Quando houve lançamento de Transferência deverá existir um novo Lançamento onde a Conta é a Conta Destino. 
-1. Disponibilizar uma consulta de locações pelos parâmetros: Data Agendamento, Data Retirada, Cadastro (usuario), Status Locação. 
+1. Disponibilizar Extrato dos Lançamentos por Conta e Período de Datas inicial e final - Dashboard
+2. Exibir as Contas com Saldos consolidados 
 
 #### Noções de Arquitetura - DevOps
 
@@ -70,13 +71,15 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 - Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
 - Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
 
-- Realização do Cadastro com Endereço e Cadastro de Livros.
-- Realizar operações de locação de livros considerando as fases conforme requisitos.
-- Realizar a consulta das locações por data de agendamento, data retirada, cadastro e status.
+- Realização do cadastro Usuários com Endereço e suas Contas.
+- Realizar o cadastro de novos Planos de Contas.
+- Gerar lançamentos de Receita, Despea e Tranferências.
+- Apresentar o Dashboard com lançamentos por Usuário e Período (Data Inicial / Data Final)
+- Demonstrar as Contas com seu Saldo consolidado.
 
 - **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
 
 ##### Referências
 
 Diagrama de classe: 
-![](https://github.com/educacao-gama/desafios-gama/blob/main/biblioteca/biblioteca-diagrama.jpg)
+
