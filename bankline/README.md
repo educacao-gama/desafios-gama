@@ -3,8 +3,9 @@
 #### Autores
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
-## Desafio Biblioteca
-Criar um sistema para uma biblioteca gerenciar a locação de seus livros provendo um webservices com arquitetura REST para atender as demandas do projeto.
+## Desafio Bankline
+Criar um sistema para gerenciamento de contas e lançamentos e extratos provendo um webservices com arquitetura REST para atender as demandas do projeto.
+
 ### Backend
 
 #### Domínio - Modelagem de Dados
