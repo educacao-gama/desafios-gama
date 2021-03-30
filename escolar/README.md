@@ -3,13 +3,27 @@
 #### Autores
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
-## Desafio Ecommerce
-Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produtos e prover um webservices com arquitetura REST para atender as demandas do projeto.
+## Desafio Escolar
+A empresa EdukaTec especialista em formação de profissionais na área de tecnologia solicitou para nossa fábrica de software desenvolver um sistema para gestão de alunos, professores, matrículas, turmas e boletins para seus cursos que possuem duração de 06 meses ao ano, onde no primeiro semestre são cursos de tecnologias backend como Java, .NET e Nodes e no segundo semestre cursos de frontend como React, Angular e VueJS. Cada semestre será composto por  03 turmas no horário MATUTINO, VESPERTINO, NOTURNO com duração de 02:00 segunda-quarta-sexta e prover um webservices com arquitetura REST para atender as demandas do site.
+
 ### Backend
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Cadastro de Cliente terá os campos Nome, Cpf, Telefone, Login e Senha.
+- [ ] Os alunos e professores terão um usuário no sistema que terão um campo: Login, Senha e Tipo {ALUNO, PROFESSOR} para acessar os recursos da aplicação.
+- [ ] O cadastro de aluno será composto por : Id, Nome, Data de Nascimento, Telefone e E-mail, Sexo.
+- [ ] O cadastro de professor será composto por : Id, Nome, Data de Nascimento, Telefone e E-mail.
+- [ ] Tanto um cliente como o professor precisão consultar o seu endereço pelo CEP informado.
+**NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
+- [ ] O usuário deverá ter um identificador (TIPO) se será um ALUNO ou PROFESSOR.
+- [ ] Após o cadastro dos alunos, teremos o cadastro das matrículas onde precisaremos informar o Id Aluno, Ano, Semestre, Situação {APROVADO, REPROVADO} e gerar um número de matrícula que é a composição do ANO (0000) + SEMESTRE (00) + ID DO ALUNO (0000). Exemplo:{2021+02+0058}
+- [ ] Para o cadastro das Turmas deverá ter os campos: Id, Descrição (Ex.: Turma Java 2021-01) com seus respectivos horários: MATUTINO, VESPERTINO, NOTURNO.
+- [ ] Cada turma ensinará uma disciplina e precisará dos campos: Id, Nome (Ex.: JAVA AVANÇADO)
+- [ ] A matrícula terá o registro das 04 notas para resultar na média final em forma de Boletim com os campos Nota1, Nota2, Nota3, Nota4 e MediaFinal.  
+
+
+
+
 - [ ] O cadastro de Cliente deverá ter o seu endereço através uma tabela de endereço com os campos: Id, Cep, Logradouro, Numero, Bairro, Localidade, Uf, IBGE.
 **NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
 - [ ] Será necessário também cadastrar os Produtos com os campos: Id, Codigo de Barras, Nome, Unidade Medida, Valor Unitário, Saldo, Marca e Modelo.
