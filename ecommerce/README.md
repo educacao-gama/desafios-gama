@@ -30,11 +30,11 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 1. A cada item incluído na Venda deverá reduzir a quantidade informada no Saldo do Produto.
 1. A cada item incluído na Venda deverá atualizar o Valor Total da Venda, exemplo:
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Descrição   | Quant | R$ Unit | R$ Total |
+| ------------:-------:---------:----------:
+| TV SEMP 40" | 3     | 1.600   |  4.800   |
+| PS4         | 5     | 2.200   | 11.000   |
+| GOD OF WAR  | 2     |   125   |    250   |
 
 
 
