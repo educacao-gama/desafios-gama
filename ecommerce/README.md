@@ -12,10 +12,13 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 - [ ] Cadastro de Cliente terá os campos Nome, Cpf, Telefone, Login e Senha.
 - [ ] O cadastro de Cliente deverá ter o seu endereço através uma tabela de endereço com os campos: Id, Cep, Logradouro, Numero, Bairro, Localidade, Uf, IBGE.
 **NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
-- [ ] Será necessário também cadastrar os Produtos com os campos: Id, Codigo de Barras, Nome, Valor Unitário, Saldo, Marca e Modelo.
+- [ ] Será necessário também cadastrar os Produtos com os campos: Id, Codigo de Barras, Nome, Unidade Medida, Valor Unitário, Saldo, Marca e Modelo.
 - [ ] Para o cadastro de Produtos serão necessárias a criação de duas tabelas: Marca e Categoria com os campos: Id e Nome.
 	* Exemplo Marcas: APPLE, ESTRELA, BRATEMP e etc.
 	* Exemplo Categorias: MOVEIS, ELETROS, BRINQUEDOS, ROUPAS e etc.
+- [ ] Para a realização de Compras de produtos deverão ser informado os campos: Id, Data Compra, Valor Total Compra e os Produtos comprados com o campos: Id, Id Produto, Valor Unitário Compra, Quantidade Comprada, Valor Total Item Compra.
+- [ ] Para a realização de Vendas de produtos deverão ser informado os campos: Id, Data Compra, Valor Total Venda, Status {INICIADA, FINALIZADA, CANCELADA} e os Produtos vendidos com o campos: Id, Id Produto, Valor Unitário Venda, Quantidade Vendida, Valor Total Item Venda.
+
 
 #### Regra de Negócio
 
