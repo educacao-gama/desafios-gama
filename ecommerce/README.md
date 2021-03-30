@@ -31,10 +31,12 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 1. A cada item incluído na Venda deverá atualizar o Valor Total da Venda, exemplo:
 
 | Descrição   | Quant | R$ Unit | R$ Total |
-| ------------:-------:---------:----------:
+| ------------|-------|---------|----------|
 | TV SEMP 40" | 3     | 1.600   |  4.800   |
 | PS4         | 5     | 2.200   | 11.000   |
 | GOD OF WAR  | 2     |   125   |    250   |
+|             |       |         |          |
+|       -     |	-     | R$ Venda | 16.050   |
 
 
 
