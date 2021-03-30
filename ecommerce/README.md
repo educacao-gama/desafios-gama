@@ -4,7 +4,7 @@
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
 ## Desafio Ecommerce
-Criar um sistema para uma biblioteca gerenciar a locação de seus livros provendo um webservices com arquitetura REST para atender as demandas do projeto.
+Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produtos e prover um webservices com arquitetura REST para atender as demandas do projeto.
 ### Backend
 
 #### Domínio - Modelagem de Dados
@@ -25,21 +25,33 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 1. O campo login pode conter caracteres que representam cpf, telefone ou apelido com até 20 caracteres
 1. Não poderá ser duplicado os campos cpf e login na base de dados
 1. Todo cadastro precisará de um endereço
-1. Toda locação iniciará com Data Agendamento,  Status = RESERVADA e Valor Total = 0,0. Somente o campo Data Retirada aceitará nulo
-1. Na inclusão dos itens de livro na locação, deverá ser considerado se o campo número de exemplares do livro maior ou igual a 1
-1. A cada inclusão de livro na  locação deverá ser informada uma previsão de data de entrega e manipular os campos do livro da seguinte maneira.
+1. Toda venda deverá ser criada com o Status = INICIADA e Valor Total = 0,0
+1. Na inclusão dos itens de de produto, cada item antes de ser incluído deverá validar se a quantidade solicitada é menor ou igual ao saldo do produto.
+1. A cada item incluído na Venda deverá reduzir a quantidade informada no Saldo do Produto.
+1. A cada item incluído na Venda deverá atualizar o Valor Total da Venda, exemplo:
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+
+5. 
+6. A cada inclusão de livro na  locação deverá ser informada uma previsão de data de entrega e manipular os campos do livro da seguinte maneira.
 	1. Decrementar o campo exemplares em 1
 	1. Incrementar o campo reservados em 1
-1. Toda vez que for selecionada uma locação através da consulta de locações, deverá ser acionado a rotina que analisa todos os livros da locação atualizando os campos: número de diárias já realizadas, valor da locação de cada livro com as seguintes regras:
+7. Toda vez que for selecionada uma locação através da consulta de locações, deverá ser acionado a rotina que analisa todos os livros da locação atualizando os campos: número de diárias já realizadas, valor da locação de cada livro com as seguintes regras:
 	1. O cálculo só será executado em livros que ainda não entregues **(Data Entrega igual null)**
 	1. Cálculo de número de diárias : Data de Hoje - Data Retirada **(Locacao)**
 	1. Cálculo de valor de locação: **(Numero de Diárias x Valor Diária)** 
 	1. Valor Total da Locação é o resultante da soma do Valor Locação de todos os livros da locação.
-1. Quando o usuário vier retirar os livros atualizar o campo Data de Retirada e mudar o Status para **EFETIVADA**
-1. Quando o usuário entregar todos os livros da locação, atualizar o campo Data Finalização e Status para FINALIZADA e atualizar os campos do livro conforme abaixo:
+8. Quando o usuário vier retirar os livros atualizar o campo Data de Retirada e mudar o Status para **EFETIVADA**
+9. Quando o usuário entregar todos os livros da locação, atualizar o campo Data Finalização e Status para FINALIZADA e atualizar os campos do livro conforme abaixo:
 	1. Incrementar o campo exemplares em 1
 	1. Decrementar o campo reservados em 1
-1. Disponibilizar uma consulta de locações pelos parâmetros: Data Agendamento, Data Retirada, Cadastro (usuario), Status Locação. 
+10. Disponibilizar uma consulta de locações pelos parâmetros: Data Agendamento, Data Retirada, Cadastro (usuario), Status Locação. 
 
 #### Noções de Arquitetura - DevOps
 
