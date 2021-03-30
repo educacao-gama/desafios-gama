@@ -43,7 +43,7 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 
 1. Quando a Venda for FINALIZADA não poderá mais editar com a inclusão/remoção de novos produtos.
 1. Quando a venda for CANCELADA a quantidade dos itens vendidos deverão retornar para o saldo dos Produtos.
-1. Disponibilizar uma consulta de vendas pelos parâmetros:Cliente, Data Venda {Inicio e Fim} e Status. 
+1. Disponibilizar uma consulta de vendas pelos parâmetros: Cliente, Data Venda {Inicio e Fim} e Status. 
 2. Disponibilizar uma listagem de produtos filtrados por Marca, Categoria e Classificados por Nome e Valor Venda {Crescente - Decrescente}. 
 
 #### Noções de Arquitetura - DevOps
@@ -83,9 +83,11 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 - Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
 - Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
 
-- Realização do Cadastro com Endereço e Cadastro de Livros.
-- Realizar operações de locação de livros considerando as fases conforme requisitos.
-- Realizar a consulta das locações por data de agendamento, data retirada, cadastro e status.
+- Realização do Cadastro Clientes com Endereço, Cadastro de Produtos, Marcas e Categorias.
+- Apresentar as funcionalidades de Compra e Venda
+- Demonstrar a consolidação do Saldo dos Produtos com base nas Compras e Vendas realizadas.
+- Apresentar as consultas das Vendas realizadas.
+- Listar os produtos aplicando filtros e classificações conforme requisito.
 
 - **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
 
