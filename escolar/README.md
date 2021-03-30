@@ -21,44 +21,14 @@ A empresa EdukaTec especialista em formação de profissionais na área de tecno
 - [ ] Cada turma ensinará uma disciplina e precisará dos campos: Id, Nome (Ex.: JAVA AVANÇADO)
 - [ ] A matrícula terá o registro das 04 notas para resultar na média final em forma de Boletim com os campos Nota1, Nota2, Nota3, Nota4 e MediaFinal.  
 
-
-
-
-- [ ] O cadastro de Cliente deverá ter o seu endereço através uma tabela de endereço com os campos: Id, Cep, Logradouro, Numero, Bairro, Localidade, Uf, IBGE.
-**NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
-- [ ] Será necessário também cadastrar os Produtos com os campos: Id, Codigo de Barras, Nome, Unidade Medida, Valor Unitário, Saldo, Marca e Modelo.
-- [ ] Para o cadastro de Produtos serão necessárias a criação de duas tabelas: Marca e Categoria com os campos: Id e Nome.
-	* Exemplo Marcas: APPLE, ESTRELA, BRATEMP e etc.
-	* Exemplo Categorias: MOVEIS, ELETROS, BRINQUEDOS, ROUPAS e etc.
-- [ ] Para a realização de Compras de produtos deverão ser informado os campos: Id, Data Compra, Valor Total Compra e os Produtos comprados com o campos: Id, Id Produto, Valor Unitário Compra, Quantidade Comprada, Valor Total Item Compra.
-- [ ] Para a realização de Vendas de produtos deverão ser informado os campos: Id, Id Cliente, Data Venda, Valor Total Venda, Status {INICIADA, FINALIZADA, CANCELADA} e os Produtos vendidos com o campos: Id, Id Produto, Valor Unitário Venda, Quantidade Vendida, Valor Total Item Venda.
-
-
 #### Regra de Negócio
 
 1. O campo login pode conter caracteres que representam cpf, telefone ou apelido com até 20 caracteres
-1. Não poderá ser duplicado os campos cpf e login na base de dados
+1. Não poderá ser duplicado o campo login na base de dados
 1. Todo cadastro precisará de um endereço
-1. Todo produto deverá ser cadastrado com saldo zero.
-1. O saldo do produto não poderá ser alterado sem ser por uma compra ou venda.
-1. Ao finalizar uma compra, o sistema deverá incrementar o saldo com a quantidade de cada item inserido na compra.
-1. Toda venda deverá ser criada com o Status = INICIADA e Valor Total = 0,0
-1. Na inclusão dos itens de de produto, cada item antes de ser incluído deverá validar se a quantidade solicitada é menor ou igual ao saldo do produto.
-1. A cada item incluído na Venda deverá reduzir a quantidade informada no Saldo do Produto.
-1. A cada item incluído na Venda deverá atualizar o Valor Total da Venda, exemplo:
-
-| Descrição   | Quant | R$ Unit | R$ Total |
-| ------------|-------|---------|----------|
-| TV SEMP 40" | 3     | 1.600   |  4.800   |
-| PS4         | 5     | 2.200   | 11.000   |
-| GOD OF WAR  | 2     |   125   |    250   |
-|             |       |         |          |
-|       -     |	-     | R$ Venda | 16.050  |
-
-1. Quando a Venda for FINALIZADA não poderá mais editar com a inclusão/remoção de novos produtos.
-1. Quando a venda for CANCELADA a quantidade dos itens vendidos deverão retornar para o saldo dos Produtos.
-1. Disponibilizar uma consulta de vendas pelos parâmetros: Cliente, Data Venda {Inicio e Fim} e Status. 
-2. Disponibilizar uma listagem de produtos filtrados por Marca, Categoria e Classificados por Nome e Valor Venda {Crescente - Decrescente}. 
+1. Se a média final for inferior a 7 a matrícula do aluno informará como REPROVADO, do contrário APROVADO.
+1. Gerar uma lista de alunos, professores por nome e turmas por descrição.
+2. Gerar uma lista de matrículas por ano, semestre, situação.
 
 #### Noções de Arquitetura - DevOps
 
@@ -97,11 +67,9 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 - Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
 - Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
 
-- Realização do Cadastro Clientes com Endereço, Cadastro de Produtos, Marcas e Categorias.
-- Apresentar as funcionalidades de Compra e Venda
-- Demonstrar a consolidação do Saldo dos Produtos com base nas Compras e Vendas realizadas.
-- Apresentar as consultas das Vendas realizadas.
-- Listar os produtos aplicando filtros e classificações conforme requisito.
+- Realizar login; cadastro de alunos, professores, turmas, matrículas  e listagem em forma de consultas.
+- Aplicação das notas em cada matrícula.
+- Demonstração do boletim e situação da matricula como APROVADO / REPROVADO.
 
 - **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
 
