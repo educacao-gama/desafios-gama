@@ -9,12 +9,13 @@ Criar um sistema para uma biblioteca gerenciar a locação de seus livros proven
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Para iniciar será necessário o Cadastro contendo os campos, Id, Nome, CPF, Email, Telefone, Login, Senha
-- [ ] O cadastro deverá ter o seu endereço através uma tabela de endereço com os campos: Id, Cep, Logradouro, Numero, Bairro, Localidade, Uf, IBGE.
+- [ ] Cadastro de Cliente terá os campos Nome, Cpf, Telefone, Login e Senha.
+- [ ] O cadastro de Cliente deverá ter o seu endereço através uma tabela de endereço com os campos: Id, Cep, Logradouro, Numero, Bairro, Localidade, Uf, IBGE.
 **NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
-- [ ] Será necessário também cadastrar os livros com os campos: Id, ISBN, Titulo, Valor da Diaria, Número de exemplares do livro e Número dos exemplares reservados.
-- [ ] Para realizar a locação deverá armazenar as informações abaixo: Id, Data Agendamento, Data Retirada, Data Finalizacao,  Valor Total e o Status Locação **(RESERVADA, EFETIVADA, FINALIZADA)**.
-- [ ] Como será possivel retirar mais de um livro em cada Locação, deverá registrar estes livros selecionados incluindo os campos: Data Previsao Entrega, Data Entrega, Numero de diarias **(data entrega - data retirada)**, Valor Diaria, Valor Locação **(valor diaria * diarias)**;
+- [ ] Será necessário também cadastrar os Produtos com os campos: Id, Codigo de Barras, Nome, Valor Unitário, Saldo, Marca e Modelo.
+- [ ] Para o cadastro de Produtos serão necessárias a criação de duas tabelas: Marca e Categoria com os campos: Id e Nome.
+	* Exemplo Marcas: APPLE, ESTRELA, BRATEMP e etc.
+	* Exemplo Categorias: MOVEIS, ELETROS, BRINQUEDOS, ROUPAS e etc.
 
 #### Regra de Negócio
 
@@ -83,4 +84,4 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 ##### Referências
 
 Diagrama de classe: 
-![](https://github.com/educacao-gama/desafios-gama/blob/main/biblioteca/biblioteca-diagrama.jpg)
+
