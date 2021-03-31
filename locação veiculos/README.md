@@ -3,7 +3,7 @@
 #### Autores
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
-## Desafio Locação de Véiculos
+## Desafio Locação de Veículos
 A empresa LocaTur especializada em locação de veículos de passeio solicita o desenvolvimento de uma solução para gestão dos agendamentos, locações e devoluções de véiculos.
 Todas as funcionalidades deverão ser desenvolvidas em uma arquitetura de webservices com arquitetura REST para atender as demandas do site e app.
 
