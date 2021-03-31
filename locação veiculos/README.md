@@ -36,7 +36,7 @@ Todas as funcionalidades deverão ser desenvolvidas em uma arquitetura de webser
     * Tanque Cheio = false +20%
     * Amassados = true +30%
     * Arranhoes = true +20%
-1. Gerar uma lista de matrículas por ano, semestre, situação.
+1. Listar as locações já realizadas pelo Cliente e por Data (Inicial e Final).
 
 #### Noções de Arquitetura - DevOps
 
@@ -75,14 +75,13 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 - Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
 - Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
 
-- Realizar login; cadastro de alunos, professores, turmas, matrículas  e listagem em forma de consultas.
-- Aplicação das notas em cada matrícula.
-- Demonstração do boletim e situação da matricula como APROVADO / REPROVADO.
+- Realizar login, cadastro de clientes, operadores, marcas, modelos e veículos.
+- Demonstração de agendamento de veículo contemplando todas as fases de locação
+- Apresentar listagem de locações filtando por cliente e período Data Inicial e Data Final.
 
 - **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
 
 ##### Referências
 
 Diagrama de classe: 
-![](https://github.com/educacao-gama/desafios-gama/blob/main/escolar/escolar-digrama.jpg)
 
