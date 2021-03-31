@@ -31,8 +31,11 @@ Todas as funcionalidades deverão ser desenvolvidas em uma arquitetura de webser
 1. Todo agendamento iniciará com o status RESERVADO
 1. Quando o veículo for retirado pelo cliente, mudar o Atatus do agendamento para RETIRADO e marcar veiculo como Disponivel = false
 1. Quando o veículo for devolvido pelo cliente, mudar o Atatus do agendamento para DEVOLVIDO e marcar veiculo como Disponivel = true
-1. 
-1. 
+1. No checklist de devolução a cada marcação acrescentar % no valor da locação.
+    * Carro Limpo = false +15%
+    * Tanque Cheio = false +20%
+    * Amassados = true +30%
+    * Arranhoes = true +20%
 1. Gerar uma lista de matrículas por ano, semestre, situação.
 
 #### Noções de Arquitetura - DevOps
