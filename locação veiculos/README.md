@@ -18,9 +18,9 @@ Todas as funcionalidades deverão ser desenvolvidas em uma arquitetura de webser
 **NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
 - [ ] O usuário deverá ter um identificador (TIPO) se será um CLIENTE ou OPERADOR.
 - [ ] Cadastro de Marcas e Modelos relacionados aos veículos da locadora.
-- [ ] O cadastro do veículo deverá ter os campos: Placa, Marca, Modelo, Ano, Valor Hora, Combustivel {GASOLINA, ALCOOL, DIESEL}, Limite Porta Malas e Categoria {BASICO, COMPLETO, LUXO}.
-- [ ] Disponbilizar um registro de simulação\locação do veiculos com os campos: Id, Data Hora Agendamento, Data Hora Retirada, Data Hora Devolucao, Id Cliente, Id Veiculo, Valor Total Locação.
-- [ ] Registrar o checklist\vistoria de devolução do veículo com os campos
+- [ ] O cadastro do veículo deverá ter os campos: Placa, Marca, Modelo, Ano, Valor Hora, Disponivel, Combustivel {GASOLINA, ALCOOL, DIESEL}, Limite Porta Malas e Categoria {BASICO, COMPLETO, LUXO}.
+- [ ] Disponbilizar um registro de agendamento do veiculos com os campos: Id, Data Hora Agendamento, Data Hora Retirada, Data Hora Devolucao, Id Cliente, Id Veiculo, Valor Total Locação, Status {RESERVADO, RETIRADO, DEVOLVIDO}.
+- [ ] Registrar o checklist\vistoria de devolução do veículo com os campos: Id Locacao, Carro Limpo ?, Tanque Cheio ?, Amassados ? Arranhoes ?
 
 
 #### Regra de Negócio
@@ -28,9 +28,12 @@ Todas as funcionalidades deverão ser desenvolvidas em uma arquitetura de webser
 1. O campo login pode conter caracteres que representam cpf, telefone ou apelido com até 20 caracteres
 1. Não poderá ser duplicado o campo login na base de dados
 1. Todo cadastro precisará de um endereço
-1. Se a média final for inferior a 7 a matrícula do aluno informará como REPROVADO, do contrário APROVADO.
-1. Gerar uma lista de alunos, professores por nome e turmas por descrição.
-2. Gerar uma lista de matrículas por ano, semestre, situação.
+1. Todo agendamento iniciará com o status RESERVADO
+1. Quando o veículo for retirado pelo cliente, mudar o Atatus do agendamento para RETIRADO e marcar veiculo como Disponivel = false
+1. Quando o veículo for devolvido pelo cliente, mudar o Atatus do agendamento para DEVOLVIDO e marcar veiculo como Disponivel = true
+1. 
+1. 
+1. Gerar uma lista de matrículas por ano, semestre, situação.
 
 #### Noções de Arquitetura - DevOps
 
