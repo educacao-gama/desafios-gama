@@ -3,23 +3,25 @@
 #### Autores
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
-## Desafio Escolar
-A empresa EdukaTec especialista em formação de profissionais na área de tecnologia solicitou para nossa fábrica de software desenvolver um sistema para gestão de alunos, professores, matrículas, turmas e boletins para seus cursos que possuem duração de 06 meses ao ano, onde no primeiro semestre são cursos de tecnologias backend como Java, .NET e Nodes e no segundo semestre cursos de frontend como React, Angular e VueJS. Cada semestre será composto por  03 turmas no horário MATUTINO, VESPERTINO, NOTURNO com duração de 02:00 segunda-quarta-sexta e prover um webservices com arquitetura REST para atender as demandas do site.
+## Desafio Locação de Véiculos
+A empresa LocaTur especializada em locação de veículos de passeio solicita o desenvolvimento de uma solução para gestão dos agendamentos, locações e devoluções de véiculos.
+Todas as funcionalidades deverão ser desenvolvidas em uma arquitetura de webservices com arquitetura REST para atender as demandas do site e app.
 
 ### Backend
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Os alunos e professores terão um usuário no sistema que terão um campo: Login, Senha e Tipo {ALUNO, PROFESSOR} para acessar os recursos da aplicação.
-- [ ] O cadastro de aluno será composto por : Id, Nome, Data de Nascimento, Telefone e E-mail, Sexo.
-- [ ] O cadastro de professor será composto por : Id, Nome, Data de Nascimento, Telefone e E-mail.
-- [ ] Tanto um cliente como o professor precisão consultar o seu endereço pelo CEP informado.
+- [ ] Os clientes e operadores terão um usuário no sistema que terão um campo: Login, Senha e Tipo {CLIENTE, OPERADOR} para acessar os recursos da aplicação.
+- [ ] O cadastro de cliente será composto por : Id, Nome, Data de Nascimento, Telefone e E-mail, Sexo.
+- [ ] O cadastro de operador será composto por : Id, Nome, Matricula, Telefone e E-mail.
+- [ ] Tanto um cliente como o operador precisão consultar o seu endereço pelo CEP informado.
 **NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
-- [ ] O usuário deverá ter um identificador (TIPO) se será um ALUNO ou PROFESSOR.
-- [ ] Após o cadastro dos alunos, teremos o cadastro das matrículas onde precisaremos informar o Id Aluno, Ano, Semestre, Situação {APROVADO, REPROVADO} e gerar um número de matrícula que é a composição do ANO (0000) + SEMESTRE (00) + ID DO ALUNO (0000). Exemplo:{2021+02+0058}
-- [ ] Para o cadastro das Turmas deverá ter os campos: Id, Descrição (Ex.: Turma Java 2021-01) com seus respectivos horários: MATUTINO, VESPERTINO, NOTURNO.
-- [ ] Cada turma ensinará uma disciplina e precisará dos campos: Id, Nome (Ex.: JAVA AVANÇADO)
-- [ ] A matrícula terá o registro das 04 notas para resultar na média final em forma de Boletim com os campos Nota1, Nota2, Nota3, Nota4 e MediaFinal.  
+- [ ] O usuário deverá ter um identificador (TIPO) se será um CLIENTE ou OPERADOR.
+- [ ] Cadastro de Marcas e Modelos relacionados aos veículos da locadora.
+- [ ] O cadastro do veículo deverá ter os campos: Placa, Marca, Modelo, Ano, Valor Hora, Combustivel {GASOLINA, ALCOOL, DIESEL}, Limite Porta Malas e Categoria {BASICO, COMPLETO, LUXO}.
+- [ ] Disponbilizar um registro de simulação\locação do veiculos com os campos: Id, Data Hora Agendamento, Data Hora Retirada, Data Hora Devolucao, Id Cliente, Id Veiculo, Valor Total Locação.
+- [ ] Registrar o checklist\vistoria de devolução do veículo com os campos
+
 
 #### Regra de Negócio
 
