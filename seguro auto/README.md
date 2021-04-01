@@ -81,11 +81,12 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 
 - Apresentar a estrutura do projeto no github;
 - Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
-- Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
+- Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação;
 
-- Realizar login; cadastro de alunos, professores, turmas, matrículas  e listagem em forma de consultas.
-- Aplicação das notas em cada matrícula.
-- Demonstração do boletim e situação da matricula como APROVADO / REPROVADO.
+- Realizar login.
+- Realizar cadastro de veículos, estipulantes, beneficiários.
+- Realizar operações de cotação, geração de apólices, endossos.
+- Realizar a consulta de cotações, apólices e parcelas por estipulante.
 
 - **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
 
