@@ -5,15 +5,16 @@
 
 ## Desafio Seguro Auto
 Criar uma solução de Seguro Auto para a realização de registro de Usuário, Veiculo, Cadastro (pode ser estipulante, beneficiário, seguradora), Endereço, Cotação, Apólice, Parcelas e Endossos.
-Link Glossário Seguros: https://www.sonhoseguro.com.br/glossario/
-Link ViaCep: https://viacep.com.br/ws/01001000/json
+
+* Link Glossário Seguros: https://www.sonhoseguro.com.br/glossario/
+* Link ViaCep: https://viacep.com.br/ws/01001000/json
 
 
 ### Backend
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Todo cadastro terá os campos: Id, CpfCnpj, Nome, DataNascimento.
+- [ ] Todo cadastro terá os campos: Id, CpfCnpj, Telefone, Email, Nome, DataNascimento.
 - [ ] O cadastro terá precisará realizar um Login com os campos: Username e Password
 - [ ] O cadastro precisará consultar o seu endereço pelo CEP informado.
 - [ ] **NOTA: O sistema deverá utilizar de algum client API para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
@@ -28,12 +29,22 @@ Link ViaCep: https://viacep.com.br/ws/01001000/json
 
 #### Regra de Negócio
 
-1. O campo login pode conter caracteres que representam cpf, telefone ou apelido com até 20 caracteres
-1. Não poderá ser duplicado o campo login na base de dados
+1. No Login o campo Paswword poderá conter caracteres que representam cpf, telefone ou apelido com até 20 caracteres
+1. Não poderá ser duplicado o Login na base de dados
 1. Todo cadastro precisará de um endereço
-1. Se a média final for inferior a 7 a matrícula do aluno informará como REPROVADO, do contrário APROVADO.
-1. Gerar uma lista de alunos, professores por nome e turmas por descrição.
-2. Gerar uma lista de matrículas por ano, semestre, situação.
+1. As apólices inicialmente serão cotações no sistema Apolice = false (se a cotação se tornou uma apólice válida = true)
+**NOTA: Se tiver alguma dúvida quanto a nomenclatura dos campos, consultar o glossário:  https://www.sonhoseguro.com.br/glossario/**
+1. Parcela: Uma cotação ao se tornar apólice deverá ter 01 ou até 06 parcelas referentes ao valor do prémio com as suas respectivas datas de vencimento conforme campos: Id, Numero, Data Vencimento, Valor, Compensada.
+1. Endosso: Alterações da apólice do tipo cancelamento, mudança de endereço, troca de veículo deverão gerar endossos conforme descrição abaixo.
+    - Endosso de CANCELAMENTO: Esta ação tornará a apólice como cancelada.
+    - Endosso de MUDANCA DE ENDERECO: Quando o beneficiário mudar seu endereço gerar um registro de endosso para a apólice
+    - Endosso de TROCA DE VEICULO: Quando o estipulante resolver mudar o veiculo assegurado. 
+1. Cálculo valor prémio:
+    - O valor de prémio será referente a 3% do valor de mercado do veículo.
+    - Se o beneficiário da apólice tiver entre 18 a 25 anos, acrescentar 1% do valor de mercado do veículo
+    - Se o veículo for considerado veículo de trabalho, acrescentar 0,5% do valor de mercado do veículo.
+    - Se o veículo NÃO pernoitar em garagem, acrescentar 0,5% do valor de mercado do veículo.
+1. Realizar uma consulta de cotações, apólices e parcelas por estipulante e data de vigência ou vencimento das parcelas.
 
 #### Noções de Arquitetura - DevOps
 
