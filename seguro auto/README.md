@@ -19,9 +19,9 @@ Link ViaCep: https://viacep.com.br/ws/01001000/json
 - [ ] **NOTA: O sistema deverá utilizar de algum client API para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
 - [ ] Os Veiculos cadastrados precisarão ter os campos Id, Placa, Chassi, Descricao, Valor Mercado, Ano Fabricacao, Zero KM
 - [ ] Para gerar uma cotação será necessário informar os campos Id, Inicio Vigencia, Fim Vigencia,Valor Cobertura, Valor Premio, Apolice ?, Cancelada ?, Veiculo Trabalho, Pernoita Garagem.
-- [ ] Um cotação terá Parcela(s) com os campos: Id, Numero, Data Vencimento, Valor, Compensanda ?
+- [ ] Um cotação terá Parcela(s) com os campos: Id, Id Cotacao, Numero, Data Vencimento, Valor, Compensanda ?
 - [ ] Um cotação poderá sofrer alterações (Endossos) com 03 finalidades: CANCELAMENTO, MUDANCA_ENDERECO, TROCA_VEICULO
-- [ ] Um Endosso terá os campos: Id, Data Hora
+- [ ] Um Endosso terá os campos: Id, Id Cotacao, Data Hora
 - [ ] Um Endosso de cancelamento terá mais os campos: Data Hora Cancelamento, Motivo Cancelamento (Tabela com Id e Descrição).
 - [ ] Um Endosso de mudança de endereço terá mais o campo: Id Endereço Antigo e Id Endereço Novo
 - [ ] Um Endosso troca de veiculo terá mais os campos Id Veiculo Antigo, Id Veiculo Novo.
@@ -81,5 +81,5 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 ##### Referências
 
 Diagrama de classe: 
-![](https://github.com/educacao-gama/desafios-gama/blob/main/escolar/escolar-digrama.jpg)
+
 
