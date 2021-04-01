@@ -3,23 +3,28 @@
 #### Autores
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
-## Desafio Escolar
-A empresa EdukaTec especialista em formação de profissionais na área de tecnologia solicitou para nossa fábrica de software desenvolver um sistema para gestão de alunos, professores, matrículas, turmas e boletins para seus cursos que possuem duração de 06 meses ao ano, onde no primeiro semestre são cursos de tecnologias backend como Java, .NET e Nodes e no segundo semestre cursos de frontend como React, Angular e VueJS. Cada semestre será composto por  03 turmas no horário MATUTINO, VESPERTINO, NOTURNO com duração de 02:00 segunda-quarta-sexta e prover um webservices com arquitetura REST para atender as demandas do site.
+## Desafio Seguro Auto
+Criar uma solução de Seguro Auto para a realização de registro de Usuário, Veiculo, Cadastro (pode ser estipulante, beneficiário, seguradora), Endereço, Cotação, Apólice, Parcelas e Endossos.
+Link Glossário Seguros: https://www.sonhoseguro.com.br/glossario/
+Link ViaCep: https://viacep.com.br/ws/01001000/json
+
 
 ### Backend
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Os alunos e professores terão um usuário no sistema que terão um campo: Login, Senha e Tipo {ALUNO, PROFESSOR} para acessar os recursos da aplicação.
-- [ ] O cadastro de aluno será composto por : Id, Nome, Data de Nascimento, Telefone e E-mail, Sexo.
-- [ ] O cadastro de professor será composto por : Id, Nome, Data de Nascimento, Telefone e E-mail.
-- [ ] Tanto um cliente como o professor precisão consultar o seu endereço pelo CEP informado.
-**NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
-- [ ] O usuário deverá ter um identificador (TIPO) se será um ALUNO ou PROFESSOR.
-- [ ] Após o cadastro dos alunos, teremos o cadastro das matrículas onde precisaremos informar o Id Aluno, Ano, Semestre, Situação {APROVADO, REPROVADO} e gerar um número de matrícula que é a composição do ANO (0000) + SEMESTRE (00) + ID DO ALUNO (0000). Exemplo:{2021+02+0058}
-- [ ] Para o cadastro das Turmas deverá ter os campos: Id, Descrição (Ex.: Turma Java 2021-01) com seus respectivos horários: MATUTINO, VESPERTINO, NOTURNO.
-- [ ] Cada turma ensinará uma disciplina e precisará dos campos: Id, Nome (Ex.: JAVA AVANÇADO)
-- [ ] A matrícula terá o registro das 04 notas para resultar na média final em forma de Boletim com os campos Nota1, Nota2, Nota3, Nota4 e MediaFinal.  
+- [ ] Todo cadastro terá os campos: Id, CpfCnpj, Nome, DataNascimento.
+- [ ] O cadastro terá precisará realizar um Login com os campos: Username e Password
+- [ ] O cadastro precisará consultar o seu endereço pelo CEP informado.
+- [ ] **NOTA: O sistema deverá utilizar de algum client API para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
+- [ ] Os Veiculos cadastrados precisarão ter os campos Id, Placa, Chassi, Descricao, Valor Mercado, Ano Fabricacao, Zero KM
+- [ ] Para gerar uma cotação será necessário informar os campos Id, Inicio Vigencia, Fim Vigencia,Valor Cobertura, Valor Premio, Apolice ?, Cancelada ?, Veiculo Trabalho, Pernoita Garagem.
+- [ ] Um cotação terá Parcela(s) com os campos: Id, Numero, Data Vencimento, Valor, Compensanda ?
+- [ ] Um cotação poderá sofrer alterações (Endossos) com 03 finalidades: CANCELAMENTO, MUDANCA_ENDERECO, TROCA_VEICULO
+- [ ] Um Endosso terá os campos: Id, Data Hora
+- [ ] Um Endosso de cancelamento terá mais os campos: Data Hora Cancelamento, Motivo Cancelamento (Tabela com Id e Descrição).
+- [ ] Um Endosso de mudança de endereço terá mais o campo: Id Endereço Antigo e Id Endereço Novo
+- [ ] Um Endosso troca de veiculo terá mais os campos Id Veiculo Antigo, Id Veiculo Novo.
 
 #### Regra de Negócio
 
