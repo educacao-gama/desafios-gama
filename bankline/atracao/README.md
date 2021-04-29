@@ -11,14 +11,14 @@ Criar um sistema para gerenciamento de contas e lançamentos e extratos provendo
 #### Domínio - Modelagem de Dados
 
 - [ ] Cadastro de Conta com os campos: Id, Nome, Cpf, Login e Senha, Saldo.
-- [ ] Registro de Lançamentos de Crédito e Débito com os campos: Id, Data, Descrição, Id Conta, Valor e Tipo (Cédito ou Débito) 
+- [ ] Registro de Lançamentos de Crédito e Débito com os campos: Id, Data, Descrição, Id Conta, Valor e Tipo (Crédito ou Débito) 
 
 #### Regra de Negócio
 
 1. O campo Login só permitirá até 20 caracteres
 1. Não poderá ser duplicado os campos cpf e login na base de dados
 1. Regras de Lançamentos
-	1. Quando o lançamento for do tipo Cédito o Saldo deve ser acrescido o seu valor
+	1. Quando o lançamento for do tipo Crédito o Saldo deve ser acrescido o seu valor
 	2. Quando o lançamento for do tipo Débito o Saldo deve ser deduzido o seu valor 
 1. Disponibilizar Extrato dos Lançamentos por Conta e Período de Datas inicial e final - Dashboard
 2. Exibir a(s) Conta(s) com Saldos consolidados 
