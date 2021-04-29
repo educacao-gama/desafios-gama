@@ -16,7 +16,7 @@ Criar um sistema para gerenciamento de contas e lançamentos e extratos provendo
 #### Regra de Negócio
 
 1. O campo Login só permitirá até 20 caracteres
-1. Não poderá ser duplicado os campos cpf e login na base de dados
+1. Não poderá ser duplicado os campos cpf e login na base de dados (banco \ cookies \ local storage) 
 1. Regras de Lançamentos
 	1. Quando o lançamento for do tipo Crédito o Saldo deve ser acrescido o seu valor
 	2. Quando o lançamento for do tipo Débito o Saldo deve ser deduzido o seu valor 
@@ -26,4 +26,4 @@ Criar um sistema para gerenciamento de contas e lançamentos e extratos provendo
 #### Extras
 
 1. Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe
-1. Disponibilizar uma API Rest \ Telas com todas as funcionalidades citadas acima.
+
