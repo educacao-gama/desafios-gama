@@ -25,5 +25,5 @@ Criar um sistema para gerenciamento de contas e lançamentos e extratos provendo
 
 #### Extras
 
-1. Disponibilizar uma API Rest \ Telas com todas as funcionalidades citadas acima.
 1. Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe
+1. Disponibilizar uma API Rest \ Telas com todas as funcionalidades citadas acima.
