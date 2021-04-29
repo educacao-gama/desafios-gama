@@ -20,4 +20,4 @@ A Gama Academy desenvolveu uma lista de desafios para você que pretende exercit
 Lista de desafios para atração de alunos para nossas academias
 | Desafio  | Descrição |
 | ------------- | ------------- |
-| [Bankline](https://github.com/educacao-gama/desafios-gama/tree/main/bankline)  | Um gerenciador financeiro inteligente  |
+| [Bankline](https://github.com/educacao-gama/desafios-gama/tree/main/bankline/atracao)  | Um gerenciador financeiro inteligente  |
