@@ -32,6 +32,7 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, ate
 1. Disponibilizar uma API Rest que deverá disponibilizar o serviço de autenticação e autorização para usuários.
 1. Disponibilizar uma API Rest com todas as funcionalidades citadas acima.
 1. Disponibilizar a documentação dos recursos Web Services REST.
+1. Em caso de Frontend - Disponibilizar o link para acesso ao sistema web 
 
 #### Orientações \ Obrigatoriedade
 
