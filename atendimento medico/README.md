@@ -32,7 +32,7 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, ate
 1. Disponibilizar uma API Rest que deverá disponibilizar o serviço de autenticação e autorização para usuários.
 1. Disponibilizar uma API Rest com todas as funcionalidades citadas acima.
 1. Disponibilizar a documentação dos recursos Web Services REST.
-1. Em caso de Frontend - Disponibilizar o link para acesso ao sistema web 
+1. Em caso de Frontend - APP - Disponibilizar o link para acesso ao sistema web ou download do APP
 
 #### Orientações \ Obrigatoriedade
 
@@ -56,14 +56,14 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, ate
 - Apresentar a API projeto  devidamente documentada para uma demonstração de uma jornada de consumo dos recursos com ênfase nas funcionalidades do sistema solicitado e critérios de aceite.
 - Detalhar no README do projeto modelo de consumo de endpoint para facilitar a utilização da API, exemplo:
 
-##### Frontend
+##### Frontend \ App
 
 - Apresentar a estrutura do projeto no github;
 - Demonstrar tela de login com fundamentos de autenticação e autorização
 - Apresentar telas relacionadas as funcionalidades de cadastro de clientes, profissões, especialistas, atendimentos e consulta de prontuários.
 
 ###### Projeto Final
-- Apresentar a aplicação WEB devidamente documentada para uma demonstração de uma jornada do usuário com ênfase nas funcionalidades do sistema solicitado e critérios de aceite.
+- Apresentar a aplicação WEB - APP devidamente documentada para uma demonstração de uma jornada do usuário com ênfase nas funcionalidades do sistema solicitado e critérios de aceite.
 - Detalhar no README do projeto as funcionalidades do sistema bem como menu, telas e navegabilidade:
 
 ##### Funcionalidades
@@ -73,7 +73,7 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, ate
 - Realizar a consulta dos atendimento por data de agendamento, data atendimento, cliente, especialista e status.
 
 ##### Critérios de Aceite
-Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe, READEME com a jornada do projeto final com API Rest documentada pelo Swagger e\ou Front Interativo disponível em um ambiente Netlify, Azure, Heroku ou OnPromisse.
+Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe, READEME com a jornada do projeto final com API Rest documentada pelo Swagger e\ou Front - APP Interativo disponível em um ambiente Netlify, Azure, Heroku ou OnPromisse.
 
 - Apresentar a estrutura do projeto no github;
 - Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
