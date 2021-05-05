@@ -24,7 +24,7 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, ate
 1. O campo login pode conter caracteres com até 20 caracteres
 1. Não poderá ser duplicado os campos cpf do cliente, registro do especialista e login do usuario.
 1. Todo cadastro de cliente e especialista precisará de um endereço.
-1. Todo Atendimento Médico com Status = REALIZADO deverá gerar um registro de histórico no prontário do paciente.
+1. Todo Atendimento Médico com Status = REALIZADO deverá gerar um registro de histórico no prontuário do paciente.
 1. Disponibilizar uma consulta dos atendimentos pelos parâmetros: Data Agendamento, Data Atendimento, Cliente, Status e Especialista. 
 
 #### Noções de Arquitetura - DevOps
