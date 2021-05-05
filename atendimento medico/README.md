@@ -55,16 +55,6 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, ate
 - Apresentar a API projeto  devidamente documentada para uma demonstração de uma jornada de consumo dos recursos com ênfase nas funcionalidades do sistema solicitado e critérios de aceite.
 - Detalhar no README do projeto modelo de consumo de endpoint para facilitar a utilização da API, exemplo:
 
-###### Critérios de Aceite
-Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe, READEME com a jornada do projeto final com API Rest documentada pelo Swagger e\ou Front Interativo disponível em um ambiente Netlify, Azure, Heroku ou OnPromisse.
-
-- Apresentar a estrutura do projeto no github;
-- Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
-- Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
-
-- **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
-
-
 ##### Frontend
 
 - Apresentar a estrutura do projeto no github;
@@ -80,6 +70,16 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 - Realização do Cadastro de Clientes e Especialistas.
 - Realizar registro de atendimentos e histórico em prontuários.
 - Realizar a consulta dos atendimento por data de agendamento, data atendimento, cliente, especialista e status.
+
+##### Critérios de Aceite
+Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe, READEME com a jornada do projeto final com API Rest documentada pelo Swagger e\ou Front Interativo disponível em um ambiente Netlify, Azure, Heroku ou OnPromisse.
+
+- Apresentar a estrutura do projeto no github;
+- Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
+- Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
+- Em caso de Frontend demonstrar os menus, telas e navegabilidade de todas as funcionalidades do sistema.
+
+- **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
 
 
 ##### Referências
