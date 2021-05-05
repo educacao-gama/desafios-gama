@@ -3,8 +3,8 @@
 #### Autores
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
-## Desafio Biblioteca
-Criar um sistema para uma biblioteca gerenciar a locação de seus livros provendo um webservices com arquitetura REST para atender as demandas do projeto.
+## Desafio Consulta \ Prontuário
+Criar um sistema para um consultório controlar o cadastro de seus clientes, consultas e prontruários dos pacientes.
 ### Backend
 
 #### Domínio - Modelagem de Dados
