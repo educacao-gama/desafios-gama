@@ -16,7 +16,7 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, ate
 - [ ] Será necessário também cadastrar o Especialista com os campos: Id, Nome, Registro, Telefone, Celular, Email e Profissão
 - [ ] A mesma regra de endereço de Cliente se aplica ao cadastro de Especialista.
 - [ ] Cadastro de Profissão para Especialista com os campos Id e Nome.
-- [ ] Lançamento dos Atendimentos realizados na clínica com os campos Id, Data Agendamento, Data Atendimento, Hora Atendimento, Valor do Atendimento e Status da Atendimento {AGENDADO, REALIZADO, CANCELADO}
+- [ ] Lançamento dos Atendimentos realizados na clínica com os campos Id, Data Agendamento, Data Atendimento, Hora Atendimento, Valor do Atendimento e Status do Atendimento {AGENDADO, REALIZADO, CANCELADO}
 - [ ] Registro em Prontuario informando o Id, Paciente, Data Abertura
 - [ ] Registro de Histório dos atendimentos em forma de Histório Prontuário com os campos: Id, Data, Hora, Descricao e Especialista.
 #### Regra de Negócio
