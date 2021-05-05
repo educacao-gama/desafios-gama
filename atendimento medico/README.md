@@ -3,8 +3,8 @@
 #### Autores
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
-## Desafio Clinica \ Consulta \ Prontuário
-Criar um sistema para um consultório controlar o cadastro de seus clientes, consultas e prontruários dos pacientes.
+## Desafio Atendimento Médico \ Prontuário
+Criar um sistema para um consultório controlar o cadastro de seus clientes, atendimentos e prontuário dos pacientes.
 ### Backend
 
 #### Domínio - Modelagem de Dados
