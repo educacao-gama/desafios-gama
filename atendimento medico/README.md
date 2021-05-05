@@ -35,30 +35,28 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, con
 
 #### Orientações \ Obrigatoriedade
 
-##### 1° Entrega
+##### Backend
+
+###### 1° Entrega
 
 - Disponibilizar as funcionalidades inclusão, alteração, processamento do negócio e consulta importantes.
 - Os dados devem ser armazenados em um banco de dados utilizando frameworks ORM \ SQL.
 - Aplicar as boas práticas de desenvolvimento, organização do projeto, testes unitários e código fonte no github.
 - Código fonte no github com o arquivo README detalhando as funcionalidades, classe principal (main), nome do grupo e membros envolvidos e sua participação no projeto.
 
-##### 2° Entrega
+###### 2° Entrega
 
 - Refatorar todo o sistema para a estrutura WEB com a finalidade de prover API Rest da aplicação
 - Implementar funcionalidades de segurança usando Basic Auth, OAuth ou JWT (Preferencialmente)
 - Criar uma camada de controller\resource para disponibilizar todos os serviços aplicando autenticação\autorização nos serviços para prover os recursos de forma segura. 
 - Disponibilizar uma API Rest que exige autenticação e devidamente documentada pelo Swagger em um ambiente Azure, Heroku ou OnPromisse.
 
-##### Projeto Final
+###### Projeto Final
 - Apresentar a API projeto  devidamente documentada para uma demonstração de uma jornada de consumo dos recursos com ênfase nas funcionalidades do sistema solicitado e critérios de aceite.
 - Detalhar no README do projeto modelo de consumo de endpoint para facilitar a utilização da API, exemplo:
 
-
-#### Critérios de Aceite
+###### Critérios de Aceite
 Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe, READEME com a jornada do projeto final com API Rest documentada pelo Swagger e\ou Front Interativo disponível em um ambiente Netlify, Azure, Heroku ou OnPromisse.
-
-
-##### Backend
 
 - Apresentar a estrutura do projeto no github;
 - Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
@@ -72,7 +70,11 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 - Apresentar a estrutura do projeto no github;
 - Demonstrar tela de login com fundamentos de autenticação e autorização
 - Apresentar telas relacionadas as funcionalidades de cadastro de clientes, profissões, especialistas, atendimentos e consulta de prontuários.
-- 
+
+###### Projeto Final
+- Apresentar a aplicação WEB devidamente documentada para uma demonstração de uma jornada do usuário com ênfase nas funcionalidades do sistema solicitado e critérios de aceite.
+- Detalhar no README do projeto as funcionalidades do sistemas bem como menu, telas e navegabilidade:
+
 ##### Funcionalidades
 
 - Realização do Cadastro de Clientes e Especialistas.
@@ -83,4 +85,4 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 ##### Referências
 
 Diagrama de classe: 
-![](https://github.com/educacao-gama/desafios-gama/blob/main/biblioteca/biblioteca-diagrama.jpg)
+![](https://github.com/educacao-gama/desafios-gama/blob/main/atendimento%20medico/atendimento-medico.PNG)
