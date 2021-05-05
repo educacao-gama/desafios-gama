@@ -9,10 +9,13 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, con
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Para iniciar será necessário o Cadastro contendo os campos, Id, Nome, CPF, Email, Telefone, Login, Senha
-- [ ] O cadastro deverá ter o seu endereço através uma tabela de endereço com os campos: Id, Cep, Logradouro, Numero, Bairro, Localidade, Uf, IBGE.
-**NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
-- [ ] Será necessário também cadastrar os livros com os campos: Id, ISBN, Titulo, Valor da Diaria, Número de exemplares do livro e Número dos exemplares reservados.
+- [ ] Cadastro de Usuário terá os campos: Login, Senha e Nome
+- [ ] Cadastro de Cliente com os campos: Id, Nome, Cpf, Telefone, Celular, Email
+- [ ] O cadastro de Cliente deverá ter o seu endereço através de uma tabela de endereço com os campos: Id, Cep, Logradouro, Numero, Bairro, Localidade (cidade), Uf (estado) IBGE.
+**NOTA: O sistema deverá utilizar de algum client API como (Java como RestTemplate e FeingClient) ou sua tecnologia para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
+- [ ] Será necessário também cadastrar o Especialista com os campos: Id, Nome, Registro, Telefone, Celular, Email e Profissão
+- [ ] A mesma regra de endereço de Cliente se aplica ao cadastro de Especialista.
+- [ ] Cadastro de Profissão para Especialista com os campos Id e Nome.
 - [ ] Para realizar a locação deverá armazenar as informações abaixo: Id, Data Agendamento, Data Retirada, Data Finalizacao,  Valor Total e o Status Locação **(RESERVADA, EFETIVADA, FINALIZADA)**.
 - [ ] Como será possivel retirar mais de um livro em cada Locação, deverá registrar estes livros selecionados incluindo os campos: Data Previsao Entrega, Data Entrega, Numero de diarias **(data entrega - data retirada)**, Valor Diaria, Valor Locação **(valor diaria * diarias)**;
 
