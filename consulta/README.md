@@ -17,6 +17,8 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, con
 - [ ] A mesma regra de endereço de Cliente se aplica ao cadastro de Especialista.
 - [ ] Cadastro de Profissão para Especialista com os campos Id e Nome.
 - [ ] Lançamento das Consultas realizadas na clínica com os campos Id, Data Agendamento, Data Atendimento, Hora Atendimento, Valor Consulta e Status da Consulta {AGENDADA, REALIZADA, CANCELADA}
+- [ ] Registro em Prontario informando o Id, Paciente, Data Abertura
+- [ ] Registro de Histório das consultas em forma de Histório Prontuário com os campos: Id, Data, Hora, Descricao e Especialista.
 #### Regra de Negócio
 
 1. O campo login pode conter caracteres que representam cpf, telefone ou apelido com até 20 caracteres
