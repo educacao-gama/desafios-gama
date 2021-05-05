@@ -73,7 +73,7 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 
 ###### Projeto Final
 - Apresentar a aplicação WEB devidamente documentada para uma demonstração de uma jornada do usuário com ênfase nas funcionalidades do sistema solicitado e critérios de aceite.
-- Detalhar no README do projeto as funcionalidades do sistemas bem como menu, telas e navegabilidade:
+- Detalhar no README do projeto as funcionalidades do sistema bem como menu, telas e navegabilidade:
 
 ##### Funcionalidades
 
