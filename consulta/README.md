@@ -16,15 +16,15 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, con
 - [ ] Será necessário também cadastrar o Especialista com os campos: Id, Nome, Registro, Telefone, Celular, Email e Profissão
 - [ ] A mesma regra de endereço de Cliente se aplica ao cadastro de Especialista.
 - [ ] Cadastro de Profissão para Especialista com os campos Id e Nome.
-- [ ] Lançamento das Consultas realizadas na clínica com os campos Id, Data Agendamento, Data Atendimento, Hora Atendimento, Valor Consulta e Status da Consulta {AGENDADA, REALIZADA, CANCELADA}
+- [ ] Lançamento dos Atendimentos realizados na clínica com os campos Id, Data Agendamento, Data Atendimento, Hora Atendimento, Valor do Atendimento e Status da Atendimento {AGENDADO, REALIZADO, CANCELADO}
 - [ ] Registro em Prontario informando o Id, Paciente, Data Abertura
-- [ ] Registro de Histório das consultas em forma de Histório Prontuário com os campos: Id, Data, Hora, Descricao e Especialista.
+- [ ] Registro de Histório dos atendimentos em forma de Histório Prontuário com os campos: Id, Data, Hora, Descricao e Especialista.
 #### Regra de Negócio
 
 1. O campo login pode conter caracteres com até 20 caracteres
 1. Não poderá ser duplicado os campos cpf do cliente, registro do especialista e login do usuario.
 1. Todo cadastro de cliente e especialista precisará de um endereço.
-1. Toda Atendimento Médico com Status = REALIZADO deverá gerar um registro de histórico no prontário do paciente.
+1. Todo Atendimento Médico com Status = REALIZADO deverá gerar um registro de histórico no prontário do paciente.
 1. Disponibilizar uma consulta dos atendimentos pelos parâmetros: Data Agendamento, Data Atendimento, Cliente, Status e Especialista. 
 
 #### Noções de Arquitetura - DevOps
@@ -55,7 +55,7 @@ Criar um sistema para um consultório controlar o cadastro de seus clientes, con
 
 
 #### Critérios de Aceite
-Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe, READEME com a jornada do projeto final com API Rest documentada pelo Swagger e\ou Front Interativo disponível em um ambiente Azure, Heroku ou OnPromisse.
+Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe, READEME com a jornada do projeto final com API Rest documentada pelo Swagger e\ou Front Interativo disponível em um ambiente Netlify, Azure, Heroku ou OnPromisse.
 
 
 ##### Backend
@@ -64,11 +64,21 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 - Apresentar a API do projeto devidamente documentada e preferencialmente no Heroku;
 - Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
 
-- Realização do Cadastro com Endereço e Cadastro de Livros.
-- Realizar operações de locação de livros considerando as fases conforme requisitos.
-- Realizar a consulta das locações por data de agendamento, data retirada, cadastro e status.
-
 - **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
+
+
+##### Frontend
+
+- Apresentar a estrutura do projeto no github;
+- Demonstrar tela de login com fundamentos de autenticação e autorização
+- Apresentar telas relacionadas as funcionalidades de cadastro de clientes, profissões, especialistas, atendimentos e consulta de prontuários.
+- 
+##### Funcionalidades
+
+- Realização do Cadastro de Clientes e Especialistas.
+- Realizar registro de atendimentos e histórico em prontuários.
+- Realizar a consulta dos atendimento por data de agendamento, data atendimento, cliente, especialista e status.
+
 
 ##### Referências
 
