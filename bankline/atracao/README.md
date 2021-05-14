@@ -17,7 +17,7 @@ Criar um formulario de com dados pessoais
 1. Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios
 
 #### Extras
-1. O campo Sexo pode ser do tipo selec com com as opções M = Masculino, F = Feminino
+1. O campo Sexo pode ser do tipo select com com as opções M = Masculino, F = Feminino
 1. Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe
 
 #### Orientaçãoes
