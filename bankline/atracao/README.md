@@ -4,7 +4,7 @@
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
 ## Desafio Cadastro Pessoal - Atração
-Criar um formulario de com dados pessoais
+Criar um formulario para registrar dados pessoais
 
 ### Front
 
