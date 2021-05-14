@@ -22,6 +22,6 @@ Criar um formulario para registrar dados pessoais
 
 #### Orientaçãoes
 * O desafio é individual
-* Não usar frameworks de estilo como Bootstrap, Material e demais.
+* Não usar frameworks de estilo como Bootstrap, Google Material e demais.
  
 
