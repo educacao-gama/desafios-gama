@@ -18,7 +18,7 @@ Criar um formulario para registrar dados pessoais
 
 #### Extras
 1. O campo Sexo pode ser do tipo select com com as opções M = Masculino, F = Feminino
-1. Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe
+1. Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membro(s) individual ou equipe
 
 #### Orientaçãoes
 * O desafio é individual
