@@ -3,30 +3,26 @@
 #### Autores
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
-## Desafio Cadastro Pessoal - Atração
-Criar um formulario para registrar dados pessoais
+## Desafio Bankline - Atração
+Criar um sistema para gerenciamento de contas e lançamentos e extratos provendo um webservices com arquitetura REST para atender as demandas do projeto.
 
-### Front
+### Backend \ Front
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Cadastro Pessoal com os campos: Nome, Cpf, Rg, Sexo, Endereco, Numero, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular.
+- [ ] Cadastro de Conta com os campos: Id, Nome, Cpf, Login e Senha, Saldo.
+- [ ] Registro de Lançamentos de Crédito e Débito com os campos: Id, Data, Descrição, Id Conta, Valor e Tipo (Crédito ou Débito) 
 
 #### Regra de Negócio
 
-1. Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios
-
-#### Requisitos
-1. Explorar os recursos de CSS
-2. Explorar os recursos do Javascript
+1. O campo Login só permitirá até 20 caracteres
+1. Não poderá ser duplicado os campos cpf e login na base de dados (banco \ cookies \ local storage) 
+1. Regras de Lançamentos
+	1. Quando o lançamento for do tipo Crédito o Saldo deve ser acrescido o seu valor
+	2. Quando o lançamento for do tipo Débito o Saldo deve ser deduzido o seu valor 
+1. Disponibilizar Extrato dos Lançamentos por Conta e Período de Datas inicial e final - Dashboard
+2. Exibir a(s) Conta(s) com Saldos consolidados 
 
 #### Extras
-1. O campo Sexo pode ser do tipo select com com as opções M = Masculino, F = Feminino
-2. Usar template aplicado nas aulas
-3. Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes e links de pesquisas
 
-#### Orientaçãoes
-* O desafio é individual
-* Não usar frameworks de estilo como Bootstrap, Google Material e demais.
- 
-
+1. Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe (se for em grupo)
