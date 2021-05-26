@@ -14,6 +14,7 @@ A Gama Academy desenvolveu uma lista de desafios para você que pretende exercit
 | [Escolar](https://github.com/educacao-gama/desafios-gama/tree/main/escolar)  | Gestão Escolar  |
 | [Locação Veículos](https://github.com/educacao-gama/desafios-gama/blob/main/loca%C3%A7%C3%A3o%20veiculos/README.md)  | Controle de Locação de Veículos  |
 | [Seguro Auto](https://github.com/educacao-gama/desafios-gama/tree/main/seguro%20auto)  | Seguro para Veículos  |
+| [Atendimento Médico](https://github.com/educacao-gama/desafios-gama/tree/main/atendimento%20medico)  | Sistema para Gestão de Atendimento Clínico  |
 
 
 ## Desafios Atração
