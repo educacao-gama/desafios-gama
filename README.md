@@ -10,6 +10,7 @@ A Gama Academy desenvolveu uma lista de desafios para você que pretende exercit
 | ------------- | ------------- |
 | [Bankline](https://github.com/educacao-gama/desafios-gama/tree/main/bankline)  | Um gerenciador financeiro inteligente  |
 | [Biblioteca](https://github.com/educacao-gama/desafios-gama/tree/main/biblioteca)  | Sistema para gestão de locação de livros  |
+| [Cadastro Simples](https://github.com/educacao-gama/desafios-gama/tree/main/cadastro%20simples)  | Cadastro para registro de dados pessoais  |
 | [Ecommerce](https://github.com/educacao-gama/desafios-gama/tree/main/ecommerce)  | Plataforma de Vendas Online  |
 | [Escolar](https://github.com/educacao-gama/desafios-gama/tree/main/escolar)  | Gestão Escolar  |
 | [Locação Veículos](https://github.com/educacao-gama/desafios-gama/blob/main/loca%C3%A7%C3%A3o%20veiculos/README.md)  | Controle de Locação de Veículos  |
