@@ -22,3 +22,4 @@ Lista de desafios para atração de alunos para nossas academias
 | Desafio  | Descrição |
 | ------------- | ------------- |
 | [Bankline](https://github.com/educacao-gama/desafios-gama/tree/main/bankline/atracao)  | Um gerenciador financeiro inteligente  |
+| [Cadastro Simples](https://github.com/educacao-gama/desafios-gama/tree/main/cadastro%20simples/atracao)  | Cadastro para registro de dados pessoais  |
