@@ -16,7 +16,7 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - [ ] Para o cadastro de Produtos serão necessárias a criação de duas tabelas: Marca e Categoria com os campos: Id e Nome.
 	* Exemplo Marcas: APPLE, ESTRELA, BRATEMP e etc.
 	* Exemplo Categorias: MOVEIS, ELETROS, BRINQUEDOS, ROUPAS e etc.
-- [ ] Para a realização de Vendas de produtos deverão ser informado os campos: Id, Id Cliente, Data Venda, Valor Total Venda, Status {INICIADA, FINALIZADA, CANCELADA} e os Produtos vendidos com o campos: Id, Id Produto, Valor Unitário Venda, Quantidade Vendida, Valor Total Item Venda.
+- [ ] Para a realização de Pedidos deverão ser informado os campos: Id, Id Cliente, Data Pedido, Valor Total Pedido, Status {INICIADA, FINALIZADA, CANCELADA} e os Produtos vendidos com o campos: Id, Id Produto, Valor Unitário Pedido, Quantidade Pedido, Valor Total Item Pedido.
 
 #### Regra de Negócio
 
