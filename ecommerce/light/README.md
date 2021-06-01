@@ -68,14 +68,19 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Consulta dos pedidos já realizados;
 - Integração com API (backend)
 
-##### 1° Entrega - Gestão de Cadastros
+##### 1° Site Oficial / Landing page
+
+- Template do sit oficial
+- Landing page de promoções, estilo black friday;
+
+##### 2° Entrega - Gestão de Cadastros
 
 - Os dados de clientes, edereços e produtos devem estar devidamente estruturados
 - Os dados devem ser armazenados em base de dados SQL (relacional) ou NoSQL.
 - disposição e consumo de API com recursos de segurança (autenticação \ autorização)
 - Código fonte no github com o arquivo README detalhando as funcionalidades, nome do grupo e membros envolvidos e sua participação no projeto.
 
-##### 2° Entrega - Transações - Pedidos
+##### 3° Entrega - Transações - Pedidos
 
 - Controle das transações de pedidos
 - Sessão do usuário: dados pessoais, carrinho de compras
@@ -83,12 +88,10 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Fluxo de compra: listagem do produto, definição de quantidade, inclusão no carrinho, finalização.
 - Listagem dos pedidos
 
-##### 3° Entrega - Troubleshooting
+##### 4° Entrega - Integação com Backend -  Troubleshooting
 
  - Analisar algoritimo de gerenciamento de carrinho de compras com falha apresentada por um outro grupo.
    
    * Ex.: Erro no cálculo do valor total do pedido
 
-##### 4° Landing page
 
-- Landing page de promoções, estilo black friday;
