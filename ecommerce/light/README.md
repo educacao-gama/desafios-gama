@@ -87,5 +87,5 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 ##### 3° Entrega - Troubleshooting
  - Analisar algoritimo de gerenciamento de carrinho de compras com falha apresentada por um outro grupo.
    
-   * Ex.: Cálculo do valor total do pedido
+   * Ex.: Erro no cálculo do valor total do pedido
 
