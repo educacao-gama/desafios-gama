@@ -42,7 +42,6 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Apresentar a estrutura do projeto no github;
 - Apresentar a API do projeto devidamente documentada;
 - Realizar uma demonstração de uma jornada de consumo dos recursos de autenticação e autenticação;
-
 - Realização do Cadastro Clientes com Endereço, Cadastro de Produtos, Marcas e Categorias.
 - Apresentar as funcionalidades de Compra e Venda
 - Demonstrar a consolidação do Saldo dos Produtos com base nas Compras e Vendas realizadas.
