@@ -46,9 +46,17 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Realização do Cadastro Clientes com Endereço, Cadastro de Produtos, Marcas e Categorias.
 - Apresentar as funcionalidades de Compra e Venda
 - Demonstrar a consolidação do Saldo dos Produtos com base nas Compras e Vendas realizadas.
-- Apresentar as consultas dos Pedidos.
+- Apresentar a consulta dos Pedidos já realizados.
 - Listar os produtos aplicando filtros e classificações conforme requisito.
 
 - **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
 
+##### Frontend
+
+- Apresentar a estrutura do projeto no github;
+- Exibir a listagem dos produtos filtrando por categoria e ordenando por preço (crescente e decrescente);
+- Realizar o login do cliente;
+- Gerenciar carrinho de compras (pedidos).
+- Landing page de promoções, estilo black friday
+- Consulta dos pedidos já realizados
 
