@@ -92,7 +92,7 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Fluxo de compra: listagem do produto, definição de quantidade, inclusão no carrinho, finalização.
 - Listagem dos pedidos
 
-##### 4° Entrega - Integação com Backend -  Troubleshooting
+##### 4° Entrega - Troubleshooting
 
  - Analisar algoritimo de gerenciamento de carrinho de compras com falha apresentada por um outro grupo.
    
