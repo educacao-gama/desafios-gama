@@ -73,16 +73,18 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Template do site oficial
 - Landing page de promoções, estilo black friday;
 - Cadastre seu e-mail para receber promoções
+- Dados no localstorage
 
 ##### 2° Entrega - Gestão de Cadastros
 
 - Os dados de clientes, edereços e produtos devem estar devidamente estruturados
-- Os dados devem ser armazenados em base de dados SQL (relacional) ou NoSQL.
-- disposição e consumo de API com recursos de segurança (autenticação \ autorização)
+- Dados no localstorage
 - Código fonte no github com o arquivo README detalhando as funcionalidades, nome do grupo e membros envolvidos e sua participação no projeto.
 
 ##### 3° Entrega - Transações - Pedidos
 
+- Os dados devem ser armazenados em base de dados SQL (relacional) ou NoSQL.
+- disposição e consumo de API com recursos de segurança (autenticação \ autorização)
 - Controle das transações de pedidos
 - Sessão do usuário: dados pessoais, carrinho de compras
 - Listagem dos produtos para seleção
