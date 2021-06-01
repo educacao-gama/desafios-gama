@@ -68,3 +68,11 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Consulta dos pedidos já realizados;
 - Integração com API (backend)
 
+
+##### 1° Entrega - Gestão de Cadastros
+
+- Os dados de clientes, edereços e produtos devem estar devidamente estruturados
+- Os dados devem ser armazenados em base de dados SQL (relacional) ou NoSQL.
+- disposição e consumo de API com recursos de segurança (autenticação \ autorização)
+- Código fonte no github com o arquivo README detalhando as funcionalidades, nome do grupo e membros envolvidos e sua participação no projeto.
+
