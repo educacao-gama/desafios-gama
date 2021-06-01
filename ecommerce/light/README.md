@@ -83,8 +83,9 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 
 ##### 3° Entrega - Transações - Pedidos
 
+- Disposição e consumo de API backend 
+- Recursos de segurança (autenticação \ autorização)
 - Os dados devem ser armazenados em base de dados SQL (relacional) ou NoSQL.
-- disposição e consumo de API com recursos de segurança (autenticação \ autorização)
 - Controle das transações de pedidos
 - Sessão do usuário: dados pessoais, carrinho de compras
 - Listagem dos produtos para seleção
