@@ -98,8 +98,11 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
    
    * Ex.: Erro no cálculo do valor total do pedido
 
-##### 5° Entrega - Análise técnica
+##### 5° Entrega - Projeto Final
 
- - Identificação da Buyer persona, análise técnica da loja, identificar falhas na integração, problemas no front de um projeto desenvolvido por outro grupo.
+- Apresentar a API projeto  devidamente documentada para uma demonstração de uma jornada de consumo dos recursos com ênfase nas funcionalidades do sistema solicitado e critérios de aceite;
+- Detalhar no README do projeto modelo de consumo de endpoint para facilitar a utilização da API;
+- Disponibilizar o Site da Loja e Landing page
+- Realização de todo fluxo do site: cadastro do cliente, pedidos, gestão do carrinho e consulta de pedidos
    
   
