@@ -76,11 +76,14 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - disposição e consumo de API com recursos de segurança (autenticação \ autorização)
 - Código fonte no github com o arquivo README detalhando as funcionalidades, nome do grupo e membros envolvidos e sua participação no projeto.
 
-##### 1° Entrega - Transações - Pedidos
+##### 2° Entrega - Transações - Pedidos
 
 - Controle das transações de pedidos
 - Sessão do usuário: dados pessoais, carrinho de compras
 - Listagem dos produtos para seleção
 - Fluxo de compra: listagem do produto, definição de quantidade, inclusão no carrinho, finalização.
 - Listagem dos pedidos
+
+##### 3° Entrega - Troubleshooting
+ - Analisar algoritimo de gerenciamento de carrinho de compras com falha no cálculo do valor total do pedido apresentando por um outro grupo.
 
