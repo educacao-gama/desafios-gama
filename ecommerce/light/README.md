@@ -53,11 +53,12 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 ##### Frontend
 
 - Apresentar a estrutura do projeto no github;
-- Exibir a listagem dos produtos filtrando por categoria e ordenando por preço (crescente e decrescente);
-- Realizar o login do cliente;
-- Gerenciar carrinho de compras (pedidos);
-- Consulta dos pedidos já realizados;
-- Integração com API (backend)
+- Site Oficial
+	* Exibir a listagem dos produtos filtrando por categoria e ordenando por preço (crescente e decrescente);
+	* Realizar o login do cliente;
+	* Gerenciar carrinho de compras (pedidos);
+	* Consulta dos pedidos já realizados;
+	* Integração com API (backend)
 
 ##### APP
 - Apresentar a estrutura do projeto no github;
@@ -66,7 +67,6 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Gerenciar carrinho de compras (pedidos);
 - Consulta dos pedidos já realizados;
 - Integração com API (backend)
-
 
 ##### 1° Entrega - Gestão de Cadastros
 
