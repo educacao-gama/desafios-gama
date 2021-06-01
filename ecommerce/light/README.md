@@ -56,7 +56,6 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Exibir a listagem dos produtos filtrando por categoria e ordenando por preço (crescente e decrescente);
 - Realizar o login do cliente;
 - Gerenciar carrinho de compras (pedidos);
-- Landing page de promoções, estilo black friday;
 - Consulta dos pedidos já realizados;
 - Integração com API (backend)
 
@@ -85,7 +84,11 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Listagem dos pedidos
 
 ##### 3° Entrega - Troubleshooting
+
  - Analisar algoritimo de gerenciamento de carrinho de compras com falha apresentada por um outro grupo.
    
    * Ex.: Erro no cálculo do valor total do pedido
 
+##### 3° Landing page
+
+- Landing page de promoções, estilo black friday;
