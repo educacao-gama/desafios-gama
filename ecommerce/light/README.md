@@ -95,6 +95,7 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 ##### 4° Entrega - Troubleshooting
 
  - Analisar algoritimo de gerenciamento de carrinho de compras com falha apresentada.
+ - Detalhar a causa \ solução do problema analisado (preencher o [formulario](https://github.com/educacao-gama/desafios-gama/blob/main/Troubleshooting%20-%20Report.xlsx))
    
    * Ex.: Erro no cálculo do valor total do pedido
 
