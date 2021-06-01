@@ -89,6 +89,6 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
    
    * Ex.: Erro no cálculo do valor total do pedido
 
-##### 3° Landing page
+##### 4° Landing page
 
 - Landing page de promoções, estilo black friday;
