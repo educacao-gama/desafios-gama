@@ -98,4 +98,8 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
    
    * Ex.: Erro no cálculo do valor total do pedido
 
+##### 5° Entrega - Análise técnica
 
+ - Identificação da Buyer persona, análise técnica da loja, identificar falhas na integração, problemas no front de um projeto desenvolvido por outro grupo.
+   
+  
