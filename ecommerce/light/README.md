@@ -77,7 +77,7 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 
 ##### 2° Entrega - Gestão de Cadastros
 
-- Os dados de clientes, edereços e produtos devem estar devidamente estruturados
+- Os dados de clientes, endereços e produtos devem estar devidamente estruturados
 - Dados no localstorage
 - Código fonte no github com o arquivo README detalhando as funcionalidades, nome do grupo e membros envolvidos e sua participação no projeto.
 
