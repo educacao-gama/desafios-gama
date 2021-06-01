@@ -68,7 +68,7 @@ Criar um sistema para uma loja virtual gerenciar a compra e venda de seus produt
 - Consulta dos pedidos já realizados;
 - Integração com API (backend)
 
-##### 1° Entrega Site Oficial / Landing page
+##### 1° Entrega - Site Oficial / Landing page
 
 - Template do site oficial
 - Landing page de promoções, estilo black friday;
