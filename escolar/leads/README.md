@@ -12,7 +12,7 @@ A empresa EdukaTec especialista em formação de profissionais na área de tecno
 #### Domínio - Modelagem de Dados
 
 - [ ] Conforme diagrama abaixo, o sitema deverá ter o registro de Cursos e Contatos.
-- [ ] O Custo será composto por : Id, Nome e Categoria (EDUCACAO_BASICA, GRADUACAO, POS_GRADUACAO e EDUCACAO_DISTANCIA).
+- [ ] O Curso será composto por : Id, Nome e Categoria (EDUCACAO_BASICA, GRADUACAO, POS_GRADUACAO e EDUCACAO_DISTANCIA).
 - [ ] O Contato terá informações como : Id, Data, Nome, CPF, Endereço, Email, Telefone e Curso Desejado (ver mais detalhes no diagrama).
 **NOTA: O sistema deverá utilizar de algum client API para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
 - [ ] O Contato também terá um status para informar a situação como: NOVO, EM_ATENDIMENTO, CONTRATATO, DESISTENTE.
@@ -35,7 +35,6 @@ A empresa EdukaTec especialista em formação de profissionais na área de tecno
 
 1. Disponibilizar uma pagina para preenchimento dos dados de contato interessados na realização de um curso.
 2. Utilizar algum framework de stilo e validação de regras de preenchimento.
-
 
 
 ##### Projeto Final
