@@ -49,5 +49,5 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 ##### Referências
 
 Diagrama de classe: 
-![](https://github.com/educacao-gama/desafios-gama/blob/main/escolar/escolar-digrama.jpg)
+![](https://github.com/educacao-gama/desafios-gama/blob/main/escolar/leads/diagrama.PNG)
 
