@@ -28,10 +28,13 @@ A empresa EdukaTec especialista em formação de profissionais na área de tecno
 - Apresentar a estrutura do projeto no github;
 - Apresentar a API do projeto devidamente documentada;
 
-- **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, segurança na API, integridade do banco de dados. 
+- **Requisitos Técnicos:** Implementação aplicando as boas práticas de programação, uso de ORM, Framework de persistência, integridade do banco de dados. 
 
 
 ##### Frontend
+
+1. Disponibilizar uma pagina para preenchimento dos dados de contato interessados na realização de um curso.
+2. Utilizar algum framework de stilo e validação de regras de preenchimento.
 
 
 
