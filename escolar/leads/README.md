@@ -14,8 +14,8 @@ A empresa EdukaTec especialista em formação de profissionais na área de tecno
 - [ ] Conforme diagrama abaixo, o sitema deverá ter o registro de Cursos e Contatos.
 - [ ] O Custo será composto por : Id, Nome e Categoria (EDUCACAO_BASICA, GRADUACAO, POS_GRADUACAO e EDUCACAO_DISTANCIA).
 - [ ] O Contato terá informações como : Id, Data, Nome, CPF, Endereço, Email, Telefone e Curso Desejado (ver mais detalhes no diagrama).
-- [ ] O Contato também terá um status para informar a situação como: NOVO, EM_ATENDIMENTO, CONTRATATO, DESISTENTE.
 **NOTA: O sistema deverá utilizar de algum client API para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
+- [ ] O Contato também terá um status para informar a situação como: NOVO, EM_ATENDIMENTO, CONTRATATO, DESISTENTE.
 - [ ] O usuário deverá ter um identificador (TIPO) se será um ALUNO ou PROFESSOR.
 - [ ] Após o cadastro dos alunos, teremos o cadastro das matrículas onde precisaremos informar o Id Aluno, Ano, Semestre, Situação {APROVADO, REPROVADO} e gerar um número de matrícula que é a composição do ANO (0000) + SEMESTRE (00) + ID DO ALUNO (0000). Exemplo:{2021+02+0058}
 - [ ] Para o cadastro das Turmas deverá ter os campos: Id, Descrição (Ex.: Turma Java 2021-01) com seus respectivos horários: MATUTINO, VESPERTINO, NOTURNO.
