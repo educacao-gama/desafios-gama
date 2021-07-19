@@ -24,6 +24,7 @@ A empresa EdukaTec especialista em formação de profissionais na área de tecno
 1. No preenchimento do formulário, também será obrigatório informar o curso de preferência.
 
 
+
 #### Orientações \ Obrigatoriedade
 - Apresentar a estrutura do projeto no github;
 - Apresentar a API do projeto devidamente documentada;
@@ -44,6 +45,11 @@ A empresa EdukaTec especialista em formação de profissionais na área de tecno
 
 #### Critérios de Aceite
 Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes, participação dos membros da equipe, READEME com a jornada do projeto final com API Rest documentada pelo Swagger e\ou Front Interativo disponível em um ambiente Azure, Heroku ou OnPromisse.
+
+#### Plus+
+1. Realizar uma listagem dos contatos por data e status
+2. Criar um fluxo de atualização de status que reflita novos endpoints e uma simulação de backoffice de atendimento. 
+
 
 ##### Referências
 
