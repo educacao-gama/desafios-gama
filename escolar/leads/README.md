@@ -22,6 +22,7 @@ A empresa EdukaTec especialista em formação de profissionais na área de tecno
 1. Não poderá existir um NOVO contato com mesmo CPF
 1. O campos: CPF, Nome, Telefone, Whatsapp e Email são obrigatórios 
 1. No preenchimento do formulário, também será obrigatório informar o curso de preferência.
+2. Cada novo contato será criado com status = NOVO (ver requisito Plus+)
 
 
 
