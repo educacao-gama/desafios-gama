@@ -4,18 +4,18 @@
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
 ## Desafio Escolar
-A empresa EdukaTec especialista em formação de profissionais na área de tecnologia solicitou para nossa fábrica de software desenvolver uma página para atração de alunos para cursos de EDUCAÇÃO BÁSICA, GRADUAÇÃO, PÓS GRADUAÇÃO e EDUCAÇÃO A DISTÂNCIA. A página deverá ter um formulário para registrar os dados básicos do condidato e o curso desejado.
+A empresa EdukaTec especialista em formação de profissionais na área de tecnologia solicitou para nossa fábrica de software desenvolver uma página para atração de alunos para cursos de EDUCAÇÃO BÁSICA, GRADUAÇÃO, PÓS GRADUAÇÃO e EDUCAÇÃO A DISTÂNCIA. A página deverá ter um formulário para registrar os dados básicos para contato e o curso desejado.
 
 
 ### Backend
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Os alunos e professores terão um usuário no sistema que terão um campo: Login, Senha e Tipo {ALUNO, PROFESSOR} para acessar os recursos da aplicação.
-- [ ] O cadastro de aluno será composto por : Id, Nome, Data de Nascimento, Telefone e E-mail, Sexo.
-- [ ] O cadastro de professor será composto por : Id, Nome, Data de Nascimento, Telefone e E-mail.
-- [ ] Tanto um cliente como o professor precisão consultar o seu endereço pelo CEP informado.
-**NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
+- [ ] Conforme diagrama abaixo, o sitema deverá ter o registro de Cursos e Contatos.
+- [ ] O Custo será composto por : Id, Nome e Categoria (EDUCACAO_BASICA, GRADUACAO, POS_GRADUACAO e EDUCACAO_DISTANCIA).
+- [ ] O Contato terá informações como : Id, Data, Nome, CPF, Endereço, Email, Telefone e Curso Desejado (ver mais detalhes no diagrama).
+- [ ] O Contato também terá um status para informar a situação como: NOVO, EM_ATENDIMENTO, CONTRATATO, DESISTENTE.
+**NOTA: O sistema deverá utilizar de algum client API para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
 - [ ] O usuário deverá ter um identificador (TIPO) se será um ALUNO ou PROFESSOR.
 - [ ] Após o cadastro dos alunos, teremos o cadastro das matrículas onde precisaremos informar o Id Aluno, Ano, Semestre, Situação {APROVADO, REPROVADO} e gerar um número de matrícula que é a composição do ANO (0000) + SEMESTRE (00) + ID DO ALUNO (0000). Exemplo:{2021+02+0058}
 - [ ] Para o cadastro das Turmas deverá ter os campos: Id, Descrição (Ex.: Turma Java 2021-01) com seus respectivos horários: MATUTINO, VESPERTINO, NOTURNO.
