@@ -49,7 +49,7 @@ Integração de nosso site para dispor de serviços comuns no mercado como Marke
 
 ###### Referências
 - https://vtex.com/br-pt/overview-plataforma/
-- https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-vtex-io-cli-install 
+- https://vtex.com/br-pt/api-first/
 - https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-vtex-io-cli-install
 
 
