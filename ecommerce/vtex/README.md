@@ -40,3 +40,17 @@ Integração de nosso site para dispor de serviços comuns no mercado como Marke
 
 - Template do site ecommerce
 
+
+##### Integração com plataforma VTex
+
+- Integrar seus clientes, produtos e pedidos com a plataforma VTex IO
+- Apresentar algum benefício utilizando os recursos da integração VTex IO
+
+
+###### Referências
+- https://vtex.com/br-pt/overview-plataforma/
+- https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-vtex-io-cli-install 
+- https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-vtex-io-cli-install
+
+
+
