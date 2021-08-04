@@ -3,8 +3,8 @@
 #### Autores
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
-## Desafio Escolar
-A empresa EdukaTec especialista em formação de profissionais na área de tecnologia solicitou para nossa fábrica de software desenvolver um sistema para gestão de alunos, professores, matrículas, turmas e boletins para seus cursos que possuem duração de 06 meses ao ano, onde no primeiro semestre são cursos de tecnologias backend como Java, .NET e Nodes e no segundo semestre cursos de frontend como React, Angular e VueJS. Cada semestre será composto por  03 turmas no horário MATUTINO, VESPERTINO, NOTURNO com duração de 02:00 segunda-quarta-sexta e prover um webservices com arquitetura REST para atender as demandas do site.
+## Desafio Banco de Currículos
+A empresa JobsNET especialista em recrutamento e seleção de profissionais nas mais diversas áreas para nossa fábrica de software desenvolver uma página para atração de profissionais para conectar as oportunidades de emprego.
 
 ### Backend
 
