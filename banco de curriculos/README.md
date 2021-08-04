@@ -18,7 +18,7 @@ A empresa JobsNET especialista em recrutamento e seleção de profissionais nas 
 #### Regra de Negócio
 
 1. Não pode haver 2 cadastros de profissões de mesmo nome
-1. Não pode haver 2 cadastro de candidatos com o mesmo cpf
+1. Não pode haver 2 cadastros de candidatos com o mesmo cpf
 1. Todo candidato precisará preencher todos os campos
 
 #### Noções de Arquitetura - DevOps
