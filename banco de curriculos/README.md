@@ -4,7 +4,7 @@
 - [Gleyson Sampaio](https://github.com/gleyson-gama)
 
 ## Desafio Banco de Currículos
-A empresa JobsNET especialista em recrutamento e seleção de profissionais nas mais diversas áreas para nossa fábrica de software desenvolver uma página para atração de profissionais para conectar as oportunidades de emprego.
+A empresa JobsNET especialista em recrutamento e seleção de profissionais nas mais diversas áreas solicitou para a nossa fábrica de software desenvolver uma página para atração de profissionais para conectar as oportunidades de emprego.
 
 ### Backend
 
