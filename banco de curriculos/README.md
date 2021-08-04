@@ -27,3 +27,9 @@ A empresa JobsNET especialista em recrutamento e seleção de profissionais nas 
 1. Disponibilizar a documentação dos recursos Web Services REST.
 
 
+### Frontend
+
+1. Apresentar a estrutura do projeto no github;
+1. Landing page com formulário para prenchimento de candidatura.
+1. Upload do currículo em formato pdf
+1. Consulta dos currículos já cadastrados
