@@ -26,7 +26,7 @@ A empresa JobsNET especialista em recrutamento e seleção de profissionais nas 
 
 #### Domínio - Modelagem de Dados
 
-- [ ] Cadastro de profissões com os campos: Id e Descrição
+- [ ] Cadastro de profissões \ cargos com os campos: Id e Descrição
 - [ ] Cadastro de candidatos com os campos: Id, Nome, Data Nascimento, Endereço {cep, logradouro, numero, bairro, cidade e estado}, Telefone, Email e Profissão (selecionada)
 - [ ] Para a conclusão do cadastro, consultar o seu endereço pelo CEP informado.
 **NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
