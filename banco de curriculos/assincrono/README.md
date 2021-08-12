@@ -11,8 +11,11 @@ A empresa JobsNET especialista em recrutamento e seleção de profissionais nas 
 ##### Fase 1 - Criação da Página
 1. Apresentar a estrutura do projeto no github;
 1. Landing page com formulário para prenchimento de candidatura.
+
+
 **IMAGEM MERAMENTE ILUSTRATIVA**
-![](https://github.com/educacao-gama/desafios-gama/blob/main/atendimento%20medico/atendimento-medico.PNG)
+
+![](https://github.com/educacao-gama/desafios-gama/blob/main/banco%20de%20curriculos/formulario.PNG)
 
 
 
