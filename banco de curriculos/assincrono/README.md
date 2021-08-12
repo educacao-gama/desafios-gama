@@ -23,7 +23,7 @@ A empresa JobsNET especialista em recrutamento e seleção de profissionais nas 
 
 - [ ] Cadastro de candidatos com os campos: Id, Nome, Data Nascimento, Endereço {cep, logradouro, numero, bairro, cidade e estado}, Telefone, Email e Profissão e demais campos mencionados na imagem de ilustração de formulário de candidatos.
 - [ ] Para a conclusão do cadastro, consultar o seu endereço pelo CEP informado (Consultar a API VIA Cep)
-**NOTA: O sistema deverá utilizar de algum client API Java como RestTemplate e FeingClient para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
+**NOTA: O sistema deverá utilizar de algum client API para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/** 
 
 #### Regra de Negócio
 
