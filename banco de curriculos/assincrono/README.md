@@ -28,7 +28,7 @@ A empresa JobsNET especialista em recrutamento e seleção de profissionais nas 
 #### Regra de Negócio
 
 1. Não pode haver 2 cadastros de candidatos com o mesmo cpf
-1. Todo candidato precisará preencher todos os campos
+1. Todo candidato precisará preencher os campos: CPF, Nome, Data Nascimento, Cep, Logradouro, Número, Bairro, Cidade, Email, Profissão e Celular
 
 #### Integração entre o Pagina de Formulário o  Back-end
 
