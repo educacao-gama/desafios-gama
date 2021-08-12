@@ -17,6 +17,7 @@ A Gama Academy desenvolveu uma lista de desafios para você que pretende exercit
 | [Seguro Auto](https://github.com/educacao-gama/desafios-gama/tree/main/seguro%20auto)  | Seguro para Veículos  |
 | [Atendimento Médico](https://github.com/educacao-gama/desafios-gama/tree/main/atendimento%20medico)  | Sistema para Gestão de Atendimento Clínico  |
 | [Banco de Currículos](https://github.com/educacao-gama/desafios-gama/tree/main/banco%20de%20curriculos)  | Landing page para cadastro de currículos  |
+| [Banco de Currículos - Assíncrono](https://github.com/educacao-gama/desafios-gama/tree/main/banco%20de%20curriculos/assincrono)  | Landing page para cadastro de currículos - Aulas Gravadas  |
 
 
 ## Desafios Atração
