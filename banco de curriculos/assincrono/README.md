@@ -6,6 +6,19 @@
 ## Desafio Banco de Currículos
 A empresa JobsNET especialista em recrutamento e seleção de profissionais nas mais diversas áreas solicitou para a nossa fábrica de software desenvolver uma página para atração de profissionais para conectar as oportunidades de emprego.
 
+### Frontend
+
+##### Fase 1 - Criação da Página
+1. Apresentar a estrutura do projeto no github;
+1. Landing page com formulário para prenchimento de candidatura.
+**IMAGEM MERAMENTE ILUSTRATIVA**
+![](https://github.com/educacao-gama/desafios-gama/blob/main/atendimento%20medico/atendimento-medico.PNG)
+
+
+
+1. Upload do currículo em formato pdf
+1. Consulta dos currículos já cadastrados
+
 ### Backend
 
 #### Domínio - Modelagem de Dados
@@ -27,9 +40,4 @@ A empresa JobsNET especialista em recrutamento e seleção de profissionais nas 
 1. Disponibilizar a documentação dos recursos Web Services REST.
 
 
-### Frontend
 
-1. Apresentar a estrutura do projeto no github;
-1. Landing page com formulário para prenchimento de candidatura.
-1. Upload do currículo em formato pdf
-1. Consulta dos currículos já cadastrados
