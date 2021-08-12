@@ -30,7 +30,7 @@ A empresa JobsNET especialista em recrutamento e seleção de profissionais nas 
 1. Não pode haver 2 cadastros de candidatos com o mesmo cpf
 1. Todo candidato precisará preencher os campos: CPF, Nome, Data Nascimento, Cep, Logradouro, Número, Bairro, Cidade, Email, Profissão e Celular
 
-#### Integração entre o Pagina de Formulário o  Back-end
+#### Integração entre a Página de Formulário e o Back-end
 
 1. Disponibilizar uma API Rest com a funcionalidade de cadastro de candidatos armazenando em um banco de dados.
 1. Disponibilizar a documentação dos recursos Web Services REST - Uso do Swagger.
